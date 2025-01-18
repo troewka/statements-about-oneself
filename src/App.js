@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import { Buttons } from './Components/Button';
+import { Menu } from './Components/Menu';
+import { Icons } from './Components/Icons';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Some text!!!</h1>
+      <Buttons label = {'Реєстрація'} theme = 'green'/>
+      <Buttons label = {'Ре'}/>
+      <Menu/>
+      <div className="iconWrap">
+        <Icons name = 'calendar' theme = 'smallCircle'/>
+        <Icons name = 'like' theme = 'middleCircle'/>
+        <Icons name = 'recommendations' theme='middleCircle'/>
+        <Icons name = 'arrowSmall' theme='bigCircle'/>
+      </div>
+
     </div>
   );
 }

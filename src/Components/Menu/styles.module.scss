@@ -1,0 +1,15 @@
+.wrapper {
+   display: flex;
+   list-style: none;
+}
+
+.li {
+   margin-left: 40px;
+   a {
+      font-weight: 600;
+      font-size: 18px;
+      letter-spacing: 0.03em;
+      color: #0e2129;
+      text-decoration: none;
+   }
+}
