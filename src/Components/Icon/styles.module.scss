@@ -1,4 +1,4 @@
-.circle {
+.size {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -7,8 +7,10 @@
    &__small {
       width: 71px;
       height: 71px;
+      padding: 10px;
       img {
-         height: 38px;
+         max-width: 100%;
+         height: auto;
       }
    }
    &__middle {

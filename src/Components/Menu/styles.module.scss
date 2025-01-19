@@ -1,10 +1,11 @@
 .wrapper {
+   width: 710px;
    display: flex;
+   justify-content: space-between;
    list-style: none;
 }
 
 .li {
-   margin-left: 40px;
    a {
       font-weight: 600;
       font-size: 18px;

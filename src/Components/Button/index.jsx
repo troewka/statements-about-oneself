@@ -10,7 +10,7 @@ export const Buttons = ({ label, theme }) => {
 
    return (
       <button 
-        className={classNames(styles.buttons, theme === 'green' && styles.buttonGreen)} 
+        className={classNames(styles.buttons, theme === 'transparent' && styles.buttons__transparent, theme === 'green' && styles.buttons__green)} 
         onClick={click}
       >
         {label}

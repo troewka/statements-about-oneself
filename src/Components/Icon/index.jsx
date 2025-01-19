@@ -7,13 +7,16 @@ import messagesIcon from '../../assets/images/icons/messages.svg'
 import topIcon from '../../assets/images/icons/top.svg'
 import recommendationsIcon from '../../assets/images/icons/recommendations.svg'
 import arrowSmallIcon from '../../assets/images/icons/arrow_small.svg'
-import arrowBigIcom from '../../assets/images/icons/arrow_big.svg'
+import arrowLargeIcon from '../../assets/images/icons/arrow_large.svg'
+import arrowLongGreenIcon from '../../assets/images/icons/arrow_long_green.svg'
+import arrowLongWhiteIcon from '../../assets/images/icons/arrow_long_white.svg'
+import listIcon from '../../assets/images/icons/list.svg'
 
 import styles from './styles.module.scss'
 
 
 
-export const Icons = ( {name, theme} ) => {
+export const Icon = ( {name, size} ) => {
 
   const icon = {
     calendar: calendarIcon,
@@ -22,11 +25,15 @@ export const Icons = ( {name, theme} ) => {
     top: topIcon,
     recommendations: recommendationsIcon,
     arrowSmall: arrowSmallIcon,
-    arrowBig: arrowBigIcom
+    arrowLarge: arrowLargeIcon,
+    arrowLongGreen: arrowLongGreenIcon,
+    arrowLongWhiteIcon: arrowLongWhiteIcon,
+    list: listIcon
+
   }
 
   return (
-    <div className={classNames(styles.circle, theme === 'smallCircle' && styles.circle__small, theme === 'middleCircle' && styles.circle__middle, theme === 'bigCircle' && styles.circle__large)}>
+    <div className={classNames(styles.size, size === 'small' && styles.size__small, size === 'middle' && styles.size__middle, size === 'large' && styles.size__large)}>
       <img src={icon[name]} alt=''/>
     </div>
   )

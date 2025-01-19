@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+.text {
+  font-weight: 400;
+  font-size: 83px;
+  text-transform: uppercase;
+  color: #0e2129;
+  margin: 0;
+  margin-left: 28px;
+  span {
+    font-family: 'Celestina';
+    font-size: 109px;
+    color: #508696;
+    text-transform: none;
+  }
+}
