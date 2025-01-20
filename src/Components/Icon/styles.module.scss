@@ -1,32 +1,26 @@
 .size {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   border-radius: 100%;
-   border: 2px solid #508696;
-   &__small {
-      width: 71px;
-      height: 71px;
-      padding: 10px;
-      img {
-         max-width: 100%;
-         height: auto;
-      }
-   }
-   &__middle {
-      width: 86px;
-      height: 87px;
-      img {
-         height: 46px;
-      }
-   }
-   &__large {
-      width: 94px;
-      height: 94px;
-      img {
-         height: 32px;
-      }
-   }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  border: 2px solid #508696;
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  &__small {
+    width: 71px;
+    height: 71px;
+  }
+  &__middle {
+    width: 86px;
+    height: 87px;
+  }
+  &__large {
+    width: 94px;
+    height: 94px;
+    border: 2px solid #0e2129;
+  }
 }
 
 //.circleSmall {

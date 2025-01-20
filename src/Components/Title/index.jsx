@@ -12,15 +12,3 @@ export const Title = ({ text, color, size }) => {
     </div>
   )
 }
-//#0E2129 black
-//#93BCCC ligthblue
-//#508696 darkblue
-//#B0D283 green
-
-
-//30px
-//35px
-//37px
-//39px
-//42px
-//60px
