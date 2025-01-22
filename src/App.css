@@ -1,22 +1,13 @@
 @import-normalize;
 
 .App {
+  max-width: 1240px;
   text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  height: 100vh;
 }
 
-.icon-wrap {
-  width: 500px;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-}
-
-.social-icon-wrap {
-  width: 500px;
-  display: flex;
-  justify-content: space-around;
-  margin: 0 auto;
-}
 
 .text {
   font-family: 'Celestina';

@@ -1,6 +1,6 @@
 import './App.css';
 
-import { Buttons } from './Components/Button';
+import { Button } from './Components/Button';
 import { Menu } from './Components/Menu';
 import { Icon } from './Components/Icon';
 import { SocialIcon } from './Components/Social-icon';
@@ -8,15 +8,21 @@ import { HeadLine } from './Components/Head-line';
 import { Description } from './Components/Description';
 import { Title } from './Components/Title';
 import { List } from './Components/List';
+import { Header } from './Sections/Header';
+import { Main } from './Sections/Main';
+import { Container } from './Components/Container';
+
 
 function App() {
 
   return (
-  <div className="App">
-    <h1>Gilroy Fonts Test</h1>
+    <Container>
+    <Header/>
+    <Main/>
+    {/*<h1>Gilroy Fonts Test</h1>
     <h2 className='text'>Celestina Fonts Test</h2>
-    <Buttons label = {'Реєстрація'} theme = 'transparent'/>
-    <Buttons label = {'Зареєструйся зараз!'} theme = 'green'/>
+    <Button label = {'Реєстрація'} theme = 'transparent'/>
+    <Button label = {'Зареєструйся зараз!'} theme = 'green'/>
     <Menu/>
     <div className="icon-wrap">
       <Icon name='calendar' size='small'/>
@@ -35,8 +41,8 @@ function App() {
     <Title text='Алеся Стоковська' color='#b0d283' size='XXL'/>
     <Title text='Є питання? Напиши нам' color='#0e2129' size='XL'/>
     <List name='arrowLongGreen' text='Самооцінка та постановка цілей; подолання обмежуючих переконань.' title='Модуль 1:'/>
-    <List name='arrowLongWhite' text='Тих, хто хоче більшого: підвищення, вищої зарплати, визнання'/>
-  </div>
+    <List name='arrowLongWhite' text='Тих, хто хоче більшого: підвищення, вищої зарплати, визнання'/>*/}
+    </Container>
   );
 }
 
