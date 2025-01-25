@@ -1,7 +1,5 @@
 .buttons {
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: #0e2129;
+  border-radius: 56px;
    &__transparent {
     width: 282px;
     height: 42px;
@@ -9,17 +7,12 @@
     font-size: 20px;
     border: 1.20px solid #0e2129;
     background-color: inherit;
-    border-radius: 56px;
    }
    &__green {
     width: 390px;
     height: 52px;
-    border-radius: 56px;
     background: #d5e5c0;
     font-weight: 700;
     font-size: 24px;
-    border: none;
-    margin-left: 15px;
    }
-
 }

@@ -1,5 +1,4 @@
 import './App.css';
-
 import { Button } from './Components/Button';
 import { Menu } from './Components/Menu';
 import { Icon } from './Components/Icon';
@@ -11,6 +10,8 @@ import { List } from './Components/List';
 import { Header } from './Sections/Header';
 import { Main } from './Sections/Main';
 import { Container } from './Components/Container';
+import { AboutCourse } from './Sections/About-course';
+import { CourseFor } from './Sections/Course-for';
 
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
     <Container>
     <Header/>
     <Main/>
+    <AboutCourse/>
+    <CourseFor/>
     {/*<h1>Gilroy Fonts Test</h1>
     <h2 className='text'>Celestina Fonts Test</h2>
     <Button label = {'Реєстрація'} theme = 'transparent'/>

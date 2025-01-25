@@ -7,19 +7,24 @@ import styles from './styles.module.scss';
 
 export const Main = () => {
   return(
-    <div className={styles.wrapper}>
-      <div className={styles.img_wrapper}>
-        <img src={logo} alt="logo" />
-        <img src={main} alt="main" />
-        <p>Твій шлях до кар’єрного зростання</p>
-        <div className={styles.icon}><Icon name='arrowLarge' size='large'/></div>
+    <div className={styles.main}>
+      <div className={styles.main__header}>
+        <div className={styles.main__logo}>
+          <img src={logo} alt="" />
+          <h3 className={styles.main__subtitle}>Твій шлях до кар’єрного зростання</h3>
+        </div>
+        <div className={styles.main__photo}>
+          <img src={main} alt="" />
+        </div>
       </div>
-      <div className={styles.info}>
-        <p>Програма, яка змінить твоє життя вже сьогодні!</p>
-        <Icon name='calendar' size='small'/>
-        <div>
-          <h5>Початок</h5>
-          <span>хх лютого 2025</span>
+      <div className={styles.main__info}>
+        <h4 className={styles.main__description}>Програма, яка змінить твоє життя вже сьогодні!</h4>
+        <div className={styles.main__start}>
+          <Icon name='calendar' size='small'/>
+          <div className={styles.main__date}>
+            <h4>Початок</h4>
+            <span>ХХ ЛЮТОГО 2025</span>
+          </div>
         </div>
         <Button label='Зареєструйся зараз!' theme='green'/>
       </div>

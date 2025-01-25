@@ -1,0 +1,40 @@
+.course {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-color: #d5e5c0;
+  border-top-right-radius: 100px;
+  padding: 50px 0 19px 0;
+  &::before {
+    content: '';
+    position: absolute;
+    background-color: #d5e5c0;
+    top: 0;
+    width: 100px;
+    bottom: 0;
+    left: -100px;
+  }
+  &__descriptions {
+    :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__title {
+    max-width: 545px;
+    margin-bottom: 40px;
+  }
+  &__list {
+    margin-bottom: 68px;
+  }
+  &__picture {
+    img {
+      position: absolute;
+      top: -41px;
+      right: -39px;
+      width: 529px;
+      height: 410px;
+      object-fit: contain;
+    }
+  }
+}

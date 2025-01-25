@@ -1,16 +1,15 @@
-.wrapper {
-   width: 710px;
-   display: flex;
-   justify-content: space-between;
-   list-style: none;
-}
-
-.li {
-   a {
-      font-weight: 600;
+.menu {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 0;
+  align-items: end;
+  gap: 41px;
+  &__item {
+    a {
       font-size: 18px;
-      letter-spacing: 0.03em;
+      font-weight: 600;
+      letter-spacing: 0.54px;
       color: #0e2129;
-      text-decoration: none;
-   }
+    }
+  }
 }

@@ -1,4 +1,6 @@
 .size {
+  font-weight: 700;
+  text-transform: uppercase;
   &__xs {
     font-size: 30px;
   }
@@ -6,7 +8,7 @@
     font-size: 35px;
   }
   &__m {
-    font-size: 37px;
+    font-size: 38px;
   }
   &__l {
     font-size: 39px;
