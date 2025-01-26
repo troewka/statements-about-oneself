@@ -1,24 +1,21 @@
-.listWrapper {
+.list {
   display: flex;
   align-items: start;
   margin: 0 0 35px 0;
   > img {
     margin: 0 35px 0 0;
   }
-}
-.title {
-  min-width: 120px;
-  color: #b0d283;
-  font-weight: 700;
-  font-size: 25px;
-}
-.text {
-  color: #0e2129;
-  font-weight: 400;
-  font-size: 25px;
-}
-.onlyText {
-  color: #0e2129;
-  font-weight: 400;
-  font-size: 25px;
+  &__text {
+    color: #0e2129;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 0 0 35px 0;
+  }
+  &__title {
+    min-width: 120px;
+    color: #b0d283;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0 5px 0 0;
+  }
 }

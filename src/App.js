@@ -1,12 +1,4 @@
 import './App.css';
-import { Button } from './Components/Button';
-import { Menu } from './Components/Menu';
-import { Icon } from './Components/Icon';
-import { SocialIcon } from './Components/Social-icon';
-import { HeadLine } from './Components/Head-line';
-import { Description } from './Components/Description';
-import { Title } from './Components/Title';
-import { List } from './Components/List';
 import { Header } from './Sections/Header';
 import { Main } from './Sections/Main';
 import { Container } from './Components/Container';
@@ -14,6 +6,7 @@ import { AboutCourse } from './Sections/About-course';
 import { CourseFor } from './Sections/Course-for';
 import { Autors } from './Sections/Course-authors';
 import { Details } from './Sections/Program-details';
+import { Registration } from './Sections/Registration';
 
 function App() {
   return (
@@ -24,6 +17,7 @@ function App() {
     <CourseFor/>
     <Autors/>
     <Details/>
+    <Registration/>
     {/*<h1>Gilroy Fonts Test</h1>
     <h2 className='text'>Celestina Fonts Test</h2>
     <Button label = {'Реєстрація'} theme = 'transparent'/>

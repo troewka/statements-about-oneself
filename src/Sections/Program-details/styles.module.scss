@@ -20,6 +20,8 @@
     letter-spacing: 2.34px;
     margin: 0 0 47px 0;
   }
+  &__list {
+  }
   &__picture {
     width: 498px;
     height: 430px;
@@ -33,8 +35,5 @@
     display: flex;
     justify-content: center;
     gap: 36px;
-    button {
-      background-color: inherit;  
-    }
   }
 }
