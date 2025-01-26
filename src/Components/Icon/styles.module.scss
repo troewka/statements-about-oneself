@@ -8,17 +8,35 @@
     max-width: 100%;
     height: auto;
   }
-  &__small {
+  &__s {
+    width: 54px;
+    height: 52.3px;
+    border-radius: 56px;
+    border: solid 2px #b0d283;
+  }
+  &__m {
     width: 71px;
     height: 71px;
   }
-  &__middle {
+  &__l {
     width: 86px;
     height: 87px;
   }
-  &__large {
+  &__xl {
     width: 94px;
     height: 94px;
     border: 2px solid #0e2129;
+  }
+}
+.hover {
+  &:hover {
+    color: #fff;
+    border: none;
+    background-color: #D5E5C0;
+  }
+  svg {
+    path: {
+      stroke: #000;
+    }
   }
 }

@@ -3,20 +3,26 @@
   text-transform: uppercase;
   &__xs {
     font-size: 30px;
+    line-height: 1.2 * 30px;
   }
   &__s {
     font-size: 35px;
+    line-height: 1.2 * 35px;
   }
   &__m {
     font-size: 38px;
+    line-height: 1.2 * 38px;
   }
   &__l {
     font-size: 39px;
+    line-height: 1.2 * 39px;
   }
   &__xl {
     font-size: 42px;
+    line-height: 1.2 * 42px;
   }
   &__xxl {
     font-size: 60px;
+    line-height: 1.2 * 60px;
   }
 }

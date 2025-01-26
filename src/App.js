@@ -12,16 +12,18 @@ import { Main } from './Sections/Main';
 import { Container } from './Components/Container';
 import { AboutCourse } from './Sections/About-course';
 import { CourseFor } from './Sections/Course-for';
-
+import { Autors } from './Sections/Course-authors';
+import { Details } from './Sections/Program-details';
 
 function App() {
-
   return (
     <Container>
     <Header/>
     <Main/>
     <AboutCourse/>
     <CourseFor/>
+    <Autors/>
+    <Details/>
     {/*<h1>Gilroy Fonts Test</h1>
     <h2 className='text'>Celestina Fonts Test</h2>
     <Button label = {'Реєстрація'} theme = 'transparent'/>

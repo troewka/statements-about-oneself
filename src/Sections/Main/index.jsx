@@ -20,7 +20,7 @@ export const Main = () => {
       <div className={styles.main__info}>
         <h4 className={styles.main__description}>Програма, яка змінить твоє життя вже сьогодні!</h4>
         <div className={styles.main__start}>
-          <Icon name='calendar' size='small'/>
+          <Icon name='calendar' size='M'/>
           <div className={styles.main__date}>
             <h4>Початок</h4>
             <span>ХХ ЛЮТОГО 2025</span>

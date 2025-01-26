@@ -1,25 +1,24 @@
 .listWrapper {
   display: flex;
-  margin-bottom: 37px;
+  align-items: start;
+  margin: 0 0 35px 0;
+  > img {
+    margin: 0 35px 0 0;
+  }
 }
-
 .title {
+  min-width: 120px;
   color: #b0d283;
   font-weight: 700;
   font-size: 25px;
-  padding-left: 35px;
 }
-
 .text {
   color: #0e2129;
   font-weight: 400;
   font-size: 25px;
-  padding-left: 5px;
 }
-
 .onlyText {
   color: #0e2129;
   font-weight: 400;
   font-size: 25px;
-  padding-left: 35px;
 }

@@ -12,8 +12,7 @@ export const List = ({ name, text, title}) => {
   return (
     <div className={styles.listWrapper}>
       <img src={icon[name]} alt="" />
-      {title ? <span className={styles.title}>{title}</span> : ''}
-      <p className={classNames(name === 'arrowLongWhite' && styles.onlyText, name === 'arrowLongGreen' && styles.text)}>{text}</p>
+      <p className={classNames(name === 'arrowLongWhite' && styles.onlyText, name === 'arrowLongGreen' && styles.text)}>{title ? <span className={styles.title}>{title}</span> : ''} {text}</p>
     </div>
   )
 }

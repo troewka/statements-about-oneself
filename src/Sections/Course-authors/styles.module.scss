@@ -1,0 +1,59 @@
+.autors {
+  padding: 54px 0 0 0;
+  &__headline {
+    margin: 0 0 54px 0;
+  }
+  &__descriptions {
+    display: flex;
+    flex-direction: column;
+  }
+  &__one {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 83px 0;
+  }
+  &__two {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__info {
+    width: 603px;
+  }
+  &__title {
+    width: 432px;
+    letter-spacing: 3.64px;
+  }
+  &__social_blue {
+    display: flex;
+    gap: 38px;
+    margin: 0 0 9px 0;
+  }
+  &__social_green {
+    display: flex;
+    gap: 38px;
+    margin: 0 0 23px 0;
+  }
+
+  &__photo_1 {
+    position: relative;
+    img {
+      position: absolute;
+      top: -141px;
+      right: 15px;
+      width: 603px;
+      height: 420px;
+      object-fit: contain;
+    }
+  }
+  &__photo_2 {
+    position: relative;
+    img {
+      position: absolute;
+      top: -57px;
+      left: -100px;
+      width: 703px;
+      height: 422px;
+      object-fit: contain;
+    }
+  }
+}

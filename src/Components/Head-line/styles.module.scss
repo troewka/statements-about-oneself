@@ -1,6 +1,6 @@
 .headline {
+  height: 71px;
   display: flex;
-  align-items: end;
   &__icon {
     margin: 0 28px 0 0;
   }
@@ -11,12 +11,21 @@
     font-size: 83px;
     text-transform: uppercase;
     color: #0e2129;
-    margin: 0 133px 0 0;
+    //:first-child {
+    //  margin-right: 20px;
+    //}
+    //:last-child {
+    //  font-family: 'Gilroy';
+    //  font-size: 83px;
+    //  text-transform: uppercase;
+    //  color: #0e2129;
+    //}
     span {
       font-family: 'Celestina';
       font-size: 109px;
       color: #508696;
       text-transform: none;
+      z-index: 1;
     }
   }
 }

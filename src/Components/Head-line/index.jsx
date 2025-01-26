@@ -4,10 +4,11 @@ import styles from './styles.module.scss'
 
 export const HeadLine = ({ text, letters }) => {
   const splitText = text.split('');
+  console.log(splitText);
   return (
     <div className={styles.headline}>
       <div className={styles.headline__icon}>
-      <Icon name='arrowSmall' size='small'/>
+      <Icon name='arrowSmall' size='M'/>
       </div>
       <h2 className={styles.headline__title}>{splitText.map((char, index) => (
           <Fragment key={char + index}> 

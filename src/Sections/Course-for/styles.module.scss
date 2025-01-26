@@ -3,8 +3,8 @@
   display: flex;
   justify-content: space-between;
   background-color: #d5e5c0;
-  border-top-right-radius: 100px;
-  padding: 50px 0 19px 0;
+  border-top-right-radius: 120px;
+  padding: 50px 0 20px 0;
   &::before {
     content: '';
     position: absolute;
@@ -22,6 +22,7 @@
 
   &__title {
     max-width: 545px;
+    line-height: 47px;
     margin-bottom: 40px;
   }
   &__list {
@@ -30,10 +31,10 @@
   &__picture {
     img {
       position: absolute;
-      top: -41px;
-      right: -39px;
-      width: 529px;
-      height: 410px;
+      top: -15px;
+      right: 35px;
+      width: 424px;
+      height: 393px;
       object-fit: contain;
     }
   }

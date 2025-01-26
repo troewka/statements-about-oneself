@@ -1,7 +1,11 @@
-.text {
-  font-weight: 400;
-  font-size: 25px;
-  color: #0e2129;
-  margin-top: 8px;
-  
+.description {
+  &__text{
+    font-weight: 400;
+    font-size: 25px;
+    color: #0e2129;
+    margin: 0 0 38px 0;
+  }
+  :last-child {
+    margin: 0;
+  }
 }
