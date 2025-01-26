@@ -28,12 +28,22 @@ export const Details = () => {
         </div>
       </div>
       <div className={styles.details__buttons}>
-        <button>
-          <Icon name='arrowLeft' size='S' color='#000' hoverColor='#fff'/>
-        </button>
-        <button className={styles.details__buttons_active}>
-        <Icon name='arrowRight' size='S' isHover/>
-        </button>
+          <Icon 
+            name='arrowLeft' 
+            size='S' 
+            color='#000' 
+            hoverColor='#fff'
+            bg='#fff'
+            hoverBg='#b0d283'
+          />
+          <Icon 
+            name='arrowRight' 
+            size='S' 
+            color='#000' 
+            hoverColor='#fff'
+            bg='#fff'
+            hoverBg='#b0d283'
+          />
       </div>
     </div>
   )

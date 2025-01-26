@@ -1,4 +1,5 @@
 .size {
+  background-color: #F2F6F9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,8 +11,8 @@
   }
   &__s {
     width: 54px;
-    height: 52.3px;
-    border-radius: 56px;
+    height: 54px;
+    border-radius: 54px;
     border: solid 2px #b0d283;
   }
   &__m {
@@ -20,23 +21,11 @@
   }
   &__l {
     width: 86px;
-    height: 87px;
+    height: 86px;
   }
   &__xl {
     width: 94px;
     height: 94px;
     border: 2px solid #0e2129;
-  }
-}
-.hover {
-  &:hover {
-    color: #fff;
-    border: none;
-    background-color: #D5E5C0;
-  }
-  svg {
-    path: {
-      stroke: #000;
-    }
   }
 }
