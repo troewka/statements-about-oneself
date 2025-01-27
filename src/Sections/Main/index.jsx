@@ -1,8 +1,8 @@
 import React from "react";
 import { Icon } from "../../Components/Icon";
 import { Button } from "../../Components/Button";
-import logo from '../../assets/images/picture/logo.png';
-import main from '../../assets/images/picture/main_bg.png'
+import logo from '../../assets/images/picture/logo_main.png';
+import main from '../../assets/images/picture/main_bg.png';
 import styles from './styles.module.scss';
 
 export const Main = () => {
@@ -26,7 +26,7 @@ export const Main = () => {
             <span>ХХ ЛЮТОГО 2025</span>
           </div>
         </div>
-        <Button label='Зареєструйся зараз!' theme='green'/>
+        <Button label='Зареєструйся зараз!' theme='main'/>
       </div>
     </div>
   )

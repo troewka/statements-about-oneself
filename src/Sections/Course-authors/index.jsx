@@ -3,8 +3,8 @@ import { HeadLine } from "../../Components/Head-line";
 import { Title } from "../../Components/Title";
 import { SocialIcon } from "../../Components/Social-icon";
 import { Description } from "../../Components/Description";
-import author_1 from '../../assets/images/picture/author1_bg.png'
-import author_2 from '../../assets/images/picture/author2_bg.png'
+import author_1 from '../../assets/images/picture/author1_bg.png';
+import author_2 from '../../assets/images/picture/author2_bg.png';
 import styles from './styles.module.scss';
 
 export const Autors = () => {

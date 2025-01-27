@@ -7,8 +7,8 @@ export const Header = () => {
   return (
     <div className={styles.header}>
       <div className={styles.header__nav}>
-      <Menu/>
-      <Button label='Реєстрація' theme='transparent'/>
+        <Menu/>
+        <Button label='Реєстрація' theme='header'/>
       </div>
       <div className={styles.header__line}></div>
     </div>

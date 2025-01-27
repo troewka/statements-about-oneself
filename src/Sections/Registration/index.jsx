@@ -3,7 +3,7 @@ import { HeadLine } from "../../Components/Head-line";
 import { Title } from "../../Components/Title";
 import { Button } from "../../Components/Button";
 import { Icon } from "../../Components/Icon";
-import registration from '../../assets/images/picture/registration_bg.png'
+import registration from '../../assets/images/picture/registration_bg.png';
 import styles from './styles.module.scss';
 
 export const Registration = () => {
@@ -19,7 +19,7 @@ export const Registration = () => {
             <Title text='Заповнюй заявку вже зараз!' color='#508696' size='S'/>
           </div>
           <div className={styles.registration__button}>
-            <Button label='Реєстрація на 1 модуль' theme='blue'/>
+            <Button label='Реєстрація на 1 модуль' theme='registration'/>
           </div>
           <div className={styles.registration__date}>
             <Icon name='list' size='M'/>

@@ -19,13 +19,16 @@
       margin-bottom: 0;
     }
   }
-
   &__title {
-    max-width: 545px;
+    max-width: 551px;
     line-height: 47px;
     margin-bottom: 40px;
+    letter-spacing: 2.27px;
   }
   &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
     margin-bottom: 68px;
   }
   &__picture {

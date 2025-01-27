@@ -12,8 +12,8 @@ export const CourseFor = () => {
           <Title text='Для кого цей курс?' color='#0e2129' size='M'/>
         </div>
         <div className={styles.course__list}>
-          <List name='arrowLongWhite' text='Тих, хто хоче більшого: підвищення, вищої зарплати, визнання'/>
-          <List name='arrowLongWhite' text='Якщо ти працюєш у команді і мрієш про кар’єрний прорив'/>
+          <List name='arrowLongWhite' text='Тих, хто хоче більшого: підвищення, вищої зарплати, визнання' size='M'/>
+          <List name='arrowLongWhite' text='Якщо ти працюєш у команді і мрієш про кар’єрний прорив' size='M'/>
         </div>
         <div className={styles.course__title}>
           <Title text='Ти — саме та, хто готова змінити своє життя!' color='#508696' size='M'/>
@@ -24,5 +24,4 @@ export const CourseFor = () => {
       </div>
     </div>
   )
-
 }
