@@ -1,5 +1,4 @@
 .size {
-  background-color: #F2F6F9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,14 +17,12 @@
   &__m {
     width: 71px;
     height: 71px;
+    &_black {
+      border: 3px solid #0E2129;
+    }
   }
   &__l {
     width: 86px;
     height: 86px;
-  }
-  &__xl {
-    width: 94px;
-    height: 94px;
-    border: 2px solid #0e2129;
   }
 }
