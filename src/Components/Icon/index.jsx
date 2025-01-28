@@ -12,7 +12,7 @@ import { ReactComponent as ArrowLeft } from '../../assets/images/icons/arrow_lef
 import { ReactComponent as ArrowRight } from '../../assets/images/icons/arrow_right.svg';
 import styles from './styles.module.scss';
 
-export const Icon = ({ name, size, color, hoverColor, bg, hoverBg }) => {
+export const Icon = ({ name, size, color, hoverColor, bg, hoverBg, onClick }) => {
   const [isHover, setIsHover] = useState();
 
   const icons = {
@@ -47,6 +47,7 @@ export const Icon = ({ name, size, color, hoverColor, bg, hoverBg }) => {
       style={{ backgroundColor: isHover ? hoverBg || bg : bg }}
       onMouseEnter={handleHover} 
       onMouseLeave={handleHover}
+      onClick={onClick}
     >
       <IconCmp fill={isHover ? hoverColor || color : color} />
     </div>
