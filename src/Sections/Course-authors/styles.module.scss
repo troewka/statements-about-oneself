@@ -56,3 +56,39 @@
     }
   }
 }
+
+
+@media (max-width: 1200px) {
+  .autors {
+    &__social_green {
+      margin: 0 0 44px 0;
+      padding: 0 0 0 60px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .autors {
+    &__photo_1 {
+      img {
+        top: -120px;
+        width: 500px;
+      }
+    }
+    &__photo_2 {
+      img {
+        top: -43px;
+        left: -75px;
+        width: 560px;
+
+      }
+    }
+    &__social_green {
+      margin: 0 0 44px 0;
+      padding: 0 0 0 60px;
+    }
+    &__info {
+      max-width: 515px;
+    }
+  }
+}

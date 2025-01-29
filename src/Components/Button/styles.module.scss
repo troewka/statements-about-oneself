@@ -38,3 +38,14 @@
     color: #0E2129;
    }
 }
+
+@media (max-width: 992px) {
+  .buttons {
+    &__header {
+      font-weight: 700;
+    }
+    &__main {
+      width: 315px;
+    }
+  }
+}

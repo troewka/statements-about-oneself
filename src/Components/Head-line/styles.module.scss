@@ -20,3 +20,14 @@
     }
   }
 }
+
+@media (max-width: 992px) {
+  .headline {
+    &__title {
+      font-size: 70px;
+      span {
+        font-size: 95px;
+      }
+    }
+  }
+}

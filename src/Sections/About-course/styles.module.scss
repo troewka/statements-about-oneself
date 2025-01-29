@@ -21,3 +21,11 @@
     row-gap: 10px;
   }
 }
+
+@media (max-width: 992px) {
+  .about {
+    &__info {
+      gap: 50px;
+    }
+  }
+}

@@ -52,3 +52,35 @@
     background-color: #508696;
   }
 }
+
+@media (max-width: 1200px) {
+  .footer {
+    &__menu {
+      align-items: flex-end;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .footer {
+    padding: 40px 0 20px 0;
+    &__info {
+      justify-content: center;
+    }
+    &__logo {
+      display: none;
+    }
+    &__description {
+      align-items: center;
+    }
+    &__arrow {
+      img {
+        top: -8px;
+        left: -135px;
+      }
+    }
+    &__menu {
+      justify-content: center;
+    }
+  }
+}

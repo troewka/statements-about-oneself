@@ -26,3 +26,11 @@
     line-height: 1.2 * 60px;
   }
 }
+
+@media (max-width: 992px) {
+  .size {
+    &__m {
+      font-size: 34px;
+    }
+  }
+}

@@ -3,7 +3,6 @@
   flex-direction: column;
   padding: 0 0 68px 0;
   &__header {
-    height: 587px;
     display: flex;
     justify-content: space-between;
     gap: 23px;
@@ -30,7 +29,7 @@
     position: absolute;
     bottom: 29px;
     left: 158px;
-    font-size: 37.8px;
+    font-size: 38px;
     font-weight: 500;
     color: #0e2129;
   }
@@ -49,9 +48,9 @@
   &__start {
     display: flex;
     align-items: center;
+    gap: 45px;
   }
   &__date {
-    padding-left: 45px;
     h4, span {
       color: #0e2129;
       font-size: 25px;
@@ -63,3 +62,40 @@
     }
   }
 }
+
+@media (max-width: 1200px) {
+  .main {
+    &__header {
+      justify-content: space-around;
+    }
+    &__logo, &__photo {
+      flex: 0 0 550px;
+    }
+    &__subtitle {
+      font-size: 33px;
+    }
+  }
+ }
+
+ @media (max-width: 992px) {
+  .main {
+    &__logo, &__photo {
+      flex: 0 0 470px;
+    }
+    &__description {
+      width: 271px;
+      font-size: 23px;
+    }
+    &__start {
+      gap: 20px;
+    }
+    &__date {
+      span {
+        font-size: 23px;
+      }
+    }
+    &__subtitle {
+      font-size: 30px;
+    }
+  }
+ }

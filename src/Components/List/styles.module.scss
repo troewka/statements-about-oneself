@@ -21,3 +21,22 @@
     }
   }
 }
+
+@media (max-width: 1200px) {
+  .list {
+    &__text {
+      max-width: 680px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .list {
+    &__text {
+      max-width: 495px;
+      &_m {
+        font-size: 23px;
+      }
+    }
+  }
+}
