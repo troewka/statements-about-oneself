@@ -12,7 +12,10 @@ export const AboutCourse = () => {
         <div className={styles.about__headline}>
           <HeadLine text='Про курс' letters={['у']}/>
         </div>
-        <Title text='Що ти отримаєш?' color='#93bccc' size='M'/>
+        <div className={styles.about__title}>
+          <Title text='Що ти отримаєш?' color='#93bccc' size='M'/>
+        </div>
+
       </div>
       <div className={styles.about__info}>
         <div className={styles.about__item}>

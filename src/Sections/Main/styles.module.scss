@@ -99,3 +99,39 @@
     }
   }
  }
+
+ @media (max-width: 768px) {
+  .main {
+    padding: 0 0 40px 0;
+    &__header {
+      gap: unset;
+      justify-content: unset;
+    }
+    &__logo, &__photo {
+      flex: unset;
+    }
+    &__logo {
+      display: flex;
+      flex-direction: column;
+      gap: 35px;
+      align-items: center;
+      img {
+        width: 75%;
+        height: unset;
+      }
+    }
+    &__subtitle {
+      position: unset;
+      font-size: 24px;
+      text-align: center;
+    }
+    &__info {
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    &__description {
+      width: 100%;
+      text-align: center;
+    }
+  }
+ }

@@ -29,3 +29,30 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .about {
+    &__header {
+      align-items: start;
+      flex-direction: column;
+      gap: 60px;
+      margin: 0 0 15px 0;
+    }
+    &__headline {
+      margin: 0;
+    }
+    &__title {
+      align-self: center;
+    }
+    &__info {
+      flex: 0 0 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px 30px;
+    }
+    &__item {
+      align-items: center;
+      text-align: center;
+    }
+  }
+}

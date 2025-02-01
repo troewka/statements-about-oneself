@@ -28,7 +28,9 @@ export const Footer = () => {
       </div>
       <div className={styles.footer__nav}>
         <div className={styles.footer__menu}>
-          <Menu/>
+          <div className={styles.nav}>
+           <Menu/>
+          </div>
           <Button label='написати' theme='footer'/>
         </div>
         <div className={styles.footer__line}>

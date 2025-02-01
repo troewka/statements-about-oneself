@@ -63,3 +63,37 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .course {
+    padding: 20px 0;
+    &__descriptions {
+      flex: 0 0 60%;
+    }
+    &__title, &__list{
+      margin: 0 0 20px 0;
+    }
+    &__list {
+      gap: 25px;
+      p {
+        font-size: 20px;
+        width: unset;
+      }
+    }
+    &__title {
+      h3 {
+        font-size: 27px;
+        letter-spacing: normal;
+        line-height: normal;
+      }
+    }
+    &__picture {
+      img {
+        top: -25px;
+        width: 45%;
+        height: unset;
+      }
+    }
+  }
+
+}

@@ -15,18 +15,12 @@ export const Menu = () => {
   ]
   
   return (
-    <div className={styles.wrap}>
-      <ul className={styles.menu}>
-        {list.map(({ id, label }) => (
-          <li key={id} className={styles.menu__item}>
-            <a href={id}>{label}</a>
-          </li>
-        ))}
-      </ul>
-      <button className={styles.menu__burger} onClick={() => setOpen(!isOpen)}>
-        <Icon/>
-      </button>
-    </div>
-
+    <ul className={styles.menu}>
+      {list.map(({ id, label }) => (
+        <li key={id} className={styles.menu__item}>
+          <a href={id}>{label}</a>
+        </li>
+      ))}
+    </ul>
   );
 }

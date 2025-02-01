@@ -44,6 +44,7 @@
   &__menu {
     display: flex;
     justify-content: space-between;
+    align-items: end;
     margin: 0 0 8px 0;
   }
   &__line {
@@ -71,16 +72,36 @@
       display: none;
     }
     &__description {
-      align-items: center;
+      align-items: start;
+      width: 100%;
+    }
+    &__title {
+      align-self: center;
     }
     &__arrow {
+      align-self: center;
       img {
         top: -8px;
-        left: -135px;
+        left: -225px;
       }
     }
     &__menu {
       justify-content: center;
+    }
+  }
+  .nav, .footer__line {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    &__description {
+      align-items: start;
+      width: 100%;
+    }
+    &__title {
+      align-self: center;
     }
   }
 }

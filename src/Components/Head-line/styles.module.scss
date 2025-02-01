@@ -31,3 +31,14 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .headline {
+    &__title {
+      flex-wrap: wrap;
+    }
+    &__icon {
+      padding: 23px 0 0 0;
+    }
+  }
+}
