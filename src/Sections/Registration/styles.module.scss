@@ -49,8 +49,34 @@
 
 @media (max-width: 1200px) {
   .registration {
+    padding: 20px 0 0 0;
+    &__headline {
+      min-height: 190px;
+      margin: 0 0 35px 0;
+    }
+    &__subtitle {
+      font-size: 30px;
+      line-height: 38px;
+    }
+    &__info {
+      flex-direction: column;
+      align-self: center;
+      gap: 20px;
+    }
+    &__description {
+      order: 1;
+    }
     &__picture {
-      height: 403px;
+      height: 450px;
+    }
+    &__subtitle {
+      text-align: center;
+    }
+    &__date {
+      justify-content: center;
+    }
+    &__button, &__title, &__subtitle {
+      margin: 0 0 20px 0;
     }
   }
 }

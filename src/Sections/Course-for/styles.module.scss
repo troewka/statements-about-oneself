@@ -10,9 +10,9 @@
     position: absolute;
     background-color: #d5e5c0;
     top: 0;
-    width: 100px;
+    width: 50vw;
     bottom: 0;
-    left: -100px;
+    left: -50vw;
   }
   &__descriptions {
     :last-child {
@@ -45,8 +45,15 @@
 
 @media (max-width: 1200px) {
   .course {
+    padding: 30px 0 20px 0;
     &__list {
       margin: 0 0 35px 0;
+    }
+    &__picture {
+      top: 0;
+      left: 0;
+      width: 411px;
+      height: unset;
     }
   }
 }

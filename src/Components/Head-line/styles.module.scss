@@ -21,6 +21,17 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .headline {
+    &__title {
+      flex-wrap: wrap;
+    }
+    &__icon {
+      padding: 23px 0 0 0;
+    }
+  }
+}
+
 @media (max-width: 992px) {
   .headline {
     &__title {

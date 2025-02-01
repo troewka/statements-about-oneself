@@ -39,6 +39,14 @@
    }
 }
 
+@media (max-width: 1200px) {
+  .buttons {
+    &__main {
+      font-size: 21px;
+    }
+  }
+}
+
 @media (max-width: 992px) {
   .buttons {
     &__header {
