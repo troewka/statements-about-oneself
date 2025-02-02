@@ -114,8 +114,48 @@
   .registration {
     padding: 20px 0 0 0;
     &__headline {
-      min-height: 190px;
+      min-height: 130px;
       margin: 0 0 25px 0;
+    }
+    &__subtitle {
+      font-size: 24px;
+      line-height: normal;
+    }
+    &__picture {
+      display: flex;
+      justify-content: center;
+      position: unset;
+      width: unset;
+      height: unset;
+      img {
+        position: unset;
+        width: 90%;
+        height: unset;
+      }
+    }
+    &__description {
+      width: 100%;
+      max-width: unset;
+    }
+    &__button {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .registration {
+    padding: 0;
+    &__headline {
+      min-height: 110px;
+      margin: 0;
+    }
+    &__subtitle {
+      font-size: 20px;
+    }
+    &__date {
+      column-gap: 10px;
     }
   }
 }

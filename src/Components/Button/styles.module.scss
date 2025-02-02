@@ -57,3 +57,35 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .buttons {
+    &__main {
+      font-size: 20px;
+    }
+    &__registration {
+      width: 80%;
+      height: 45px;
+      font-size: 25px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .buttons {
+    &__main {
+      width: 70%;
+      height: 40px;
+      font-size: 16px;
+    }
+    &__registration {
+      font-size: 18px;
+    }
+    &__footer {
+      width: 70%;
+      height: 40px;
+      font-size: 20px;
+    }
+  }
+
+}

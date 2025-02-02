@@ -35,3 +35,33 @@
   }
 }
 
+@media (max-width: 768px) {
+  .size {
+    &__s, &__m {
+      text-align: center;
+      line-height: normal;
+      font-size: 25px;
+    }
+    &__xl {
+      font-size: 26px;
+    }
+    &__xxl {
+      font-size: 40px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .size {
+    line-height: normal;
+    &__xs, &__s, &__m {
+      font-size: 18px;
+    }
+    &__xl {
+      font-size: 20px;
+    }
+    &__xxl {
+      font-size: 26px;
+    }
+  }
+}

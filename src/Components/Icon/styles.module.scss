@@ -26,3 +26,38 @@
     height: 86px;
   }
 }
+
+@media (max-width: 768px) {
+  .size {
+    &__m {
+      width: 50px;
+      height: 50px;
+      padding: 10px;
+    }
+    &__l {
+      width: 60px;
+      height: 60px;
+      padding: 10px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .size {
+    border: 2px solid #508696;
+    &__s {
+      width: 44px;
+      height: 44px;
+      padding: 10px;
+    }
+    &__m {
+      width: 40px;
+      height: 40px;
+      border: 2px solid #0E2129;
+    }
+    &__l {
+      width: 45px;
+      height: 45px;
+    }
+  }
+}

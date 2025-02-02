@@ -43,7 +43,7 @@ export const Autors = () => {
               <SocialIcon name='facebookGreen' link='https://www.facebook.com/'/>
               <SocialIcon name='linkedinGreen' link='https://www.linkedin.com/'/>
             </div>
-            <Description texts={['експертка з управління репутацією та social impact комунікацій.', 'Маючи понад 15 років досвіду, зараз займає посади CEO комунікаціної агенції OII Meaningful Communication та НГО Impact Force .']}/>
+            <Description texts={['Експертка з управління репутацією та social impact комунікацій.', 'Маючи понад 15 років досвіду, зараз займає посади CEO комунікаціної агенції OII Meaningful Communication та НГО Impact Force .']}/>
           </div>
         </div>
       </div>
