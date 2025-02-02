@@ -50,7 +50,9 @@
 @media (max-width: 992px) {
   .buttons {
     &__header {
+      width: 65%;
       font-weight: 700;
+      font-size: 18px;
     }
     &__main {
       width: 315px;
@@ -60,6 +62,11 @@
 
 @media (max-width: 768px) {
   .buttons {
+    &__header {
+      width: 70%;
+      height: 35px;
+      font-size: 18px;
+    }
     &__main {
       font-size: 20px;
     }
@@ -73,6 +80,10 @@
 
 @media (max-width: 576px) {
   .buttons {
+    &__header {
+      width: 80%;
+      font-size: 16px;
+    }
     &__main {
       width: 70%;
       height: 40px;

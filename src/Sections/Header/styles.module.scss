@@ -13,7 +13,12 @@
     height: 1.2px;
     background-color: #508696;
   }
+  &__button {
+    display: none;
+  }
 }
+
+
 
 @media (max-width: 1200px) {
   .header {
@@ -24,19 +29,54 @@
 @media (max-width: 992px) {
   .header {
     &__nav {
+      position: fixed;
+      top: 0;
+      left: -50vw;
+      width: 50vw;
+      height: 100vh;
       flex-direction: column;
+      justify-content: start;
       align-items: center;
-      gap: 15px;
+      gap: 20px;
+      padding: 20px 0 0 0;
+      background-color: #fff;
+      z-index: 20;
+      transition: transform 0.3s linear;
+      &_active {
+        transform: translateX(50vw);
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+      }
+    }
+    &__button {
+      position: absolute;
+      top: 10px;
+      right: 30px;
+      display: block;
+      width: 40px;
+      height: 40px;
+      background-color: transparent;
     }
     &__line {
       display: none;
     }
-
   }
 }
 
 @media (max-width: 768px) {
   .header {
-    display: none;
+    &__button {
+      width: 35px;
+      height: 35px;
+    }
   }
 }
+
+@media (max-width: 576px) {
+  .header {
+    &__button {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+
