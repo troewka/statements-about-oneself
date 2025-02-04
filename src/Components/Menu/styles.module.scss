@@ -2,20 +2,27 @@
   display: flex;
   justify-content: space-between;
   gap: 41px;
+
   &__item {
-    a {
+    span {
+      cursor: pointer;
       font-size: 18px;
       font-weight: 600;
       letter-spacing: 0.54px;
       color: #0e2129;
+      transition: color 0.35s ease;
+      
+      &:hover {
+        color: #508696;
+      }
     }
   }
 }
 
 @media (max-width: 1200px) {
- .menu {
-  gap: 30px;
- }
+  .menu {
+    gap: 30px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -24,20 +31,26 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
-   &__item {
-    border-bottom: 1px solid black;
-    padding: 0 0 3px 0;
-    a {
-      font-size: 18px;
+
+    &__item {
+      border-bottom: 1px solid black;
+      padding: 0 0 3px 0;
+
+      &:hover {
+        border-color: #fff;
+      }
+
+      span {
+        font-size: 18px;
+      }
     }
-   }
   }
  }
 
  @media (max-width: 576px) {
   .menu {
     &__item {
-      a {
+      span {
         font-size: 16px;
       }
     }

@@ -25,23 +25,27 @@ export const SliderCarouser = ({ items }) => {
         ))}
       </Slider>
       <div className={styles.arrows}>
-        <Icon
-          name='arrowLeft' 
-          size='S' 
-          color='#508696' 
-          hoverColor='#fff'
-          hoverBg='#b0d283'
-          onClick={() => slider?.current?.slickPrev()}
-        />
-        <Icon
-          name='arrowRight' 
-          size='S' 
-          color='#508696' 
-          hoverColor='#fff'
-          bg='#fff'
-          hoverBg='#b0d283'
-          onClick={() => slider?.current?.slickNext()}
-        />
+        <div style={{ cursor: 'pointer' }}>
+          <Icon
+            name='arrowLeft' 
+            size='S' 
+            color='#508696' 
+            hoverColor='#fff'
+            hoverBg='#b0d283'
+            onClick={() => slider?.current?.slickPrev()}
+          />
+        </div>
+        <div style={{ cursor: 'pointer' }}>
+          <Icon
+            name='arrowRight' 
+            size='S' 
+            color='#508696' 
+            hoverColor='#fff'
+            bg='#fff'
+            hoverBg='#b0d283'
+            onClick={() => slider?.current?.slickNext()}
+          />
+        </div>
       </div>
     </div>
   )

@@ -1,13 +1,13 @@
 import React from "react";
 import { Icon } from "../../Components/Icon";
-import { HeadLine } from "../../Components/Head-line";
+import { HeadLine } from "../../Components/Headline";
 import { Title } from "../../Components/Title";
 import { Description } from "../../Components/Description";
 import styles from './styles.module.scss';
 
 export const AboutCourse = () => {
   return (
-    <div className={styles.about}>
+    <div id="about" className={styles.about}>
       <div className={styles.about__header}>
         <div className={styles.about__headline}>
           <HeadLine text='Про курс' letters={['у']}/>

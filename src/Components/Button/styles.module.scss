@@ -1,23 +1,44 @@
-.buttons {
+a.button {
+  display: flex;
   text-transform: uppercase;
-   &__header {
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.35s ease, color 0.35s ease;
+
+  &__header {
+    color: #0e2129;
     width: 282px;
     height: 42px;
     border-radius: 56px;
     font-weight: 500;
     font-size: 20px;
-    border: 1.20px solid #0e2129;
+    border: 1px solid #0e2129;
     background-color: inherit;
-   }
-   &__main {
+    
+    &:hover {
+      background-color: #0e2129;
+      color: #fff;
+    }
+  }
+
+  &__main {
+    color: #0e2129;
     width: 390px;
     height: 52px;
+    line-height: 52px;
     border-radius: 56px;
     background: #d5e5c0;
     font-weight: 700;
     font-size: 24px;
-   }
-   &__registration {
+
+    &:hover {
+      background-color: #0e2129;
+      color: #d5e5c0;
+    }
+  }
+
+  &__registration {
+    color: #f5f5f5;
     width: 602px;
     height: 81px;
     border-radius: 87px;
@@ -25,22 +46,33 @@
     font-size: 37px;
     font-weight: 700;
     letter-spacing: 1.48px;
-    color: #f5f5f5;
-   }
-   &__footer {
+
+    &:hover {
+      background-color: #d5e5c0;
+      color: #0e2129;
+    }
+  }
+
+  &__footer {
+    color: #0e2129;
     width: 284px;
     height: 53px;
+    line-height: 53px;
     border-radius: 56px;
     background-color: #D5E5C0;
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 0.96px;
-    color: #0E2129;
-   }
+
+    &:hover {
+      background-color: #93bccc;
+      color: #0e2129;
+    }
+  }
 }
 
 @media (max-width: 1200px) {
-  .buttons {
+  a.button {
     &__main {
       font-size: 21px;
     }
@@ -48,7 +80,7 @@
 }
 
 @media (max-width: 992px) {
-  .buttons {
+  a.button {
     &__header {
       width: 65%;
       font-weight: 700;
@@ -61,9 +93,8 @@
 }
 
 @media (max-width: 768px) {
-  .buttons {
+  a.button {
     &__header {
-      width: 70%;
       height: 35px;
       font-size: 18px;
     }
@@ -79,9 +110,8 @@
 }
 
 @media (max-width: 576px) {
-  .buttons {
+  a.button {
     &__header {
-      width: 80%;
       font-size: 16px;
     }
     &__main {

@@ -1,14 +1,15 @@
 import React from "react";
-import { HeadLine } from "../../Components/Head-line";
+import { HeadLine } from "../../Components/Headline";
 import { Title } from "../../Components/Title";
 import { Button } from "../../Components/Button";
 import { Icon } from "../../Components/Icon";
 import registration from '../../assets/images/picture/registration_bg.png';
 import styles from './styles.module.scss';
+import { config } from "../../config";
 
 export const Registration = () => {
   return(
-    <div className={styles.registration}>
+    <div id="registation" className={styles.registration}>
       <div className={styles.registration__headline}>
         <HeadLine text='Реєстрація на модуль 1' letters={['є', 'я', '1']}/>
       </div>
@@ -19,7 +20,7 @@ export const Registration = () => {
             <Title text='Заповнюй заявку вже зараз!' color='#508696' size='S'/>
           </div>
           <div className={styles.registration__button}>
-            <Button label='Реєстрація на 1 модуль' theme='registration'/>
+            <Button label='Реєстрація на 1 модуль' theme='registration' href={config.registration} />
           </div>
           <div className={styles.registration__date}>
             <Icon name='list' size='M'/>

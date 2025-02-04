@@ -1,7 +1,8 @@
 import React from "react";
-import { HeadLine } from "../../Components/Head-line";
+import { config } from "../../config";
+import { HeadLine } from "../../Components/Headline";
 import { Title } from "../../Components/Title";
-import { SocialIcon } from "../../Components/Social-icon";
+import { SocialIcon } from "../../Components/SocialIcon";
 import { Description } from "../../Components/Description";
 import author_1 from '../../assets/images/picture/author1_bg.png';
 import author_2 from '../../assets/images/picture/author2_bg.png';
@@ -9,7 +10,7 @@ import styles from './styles.module.scss';
 
 export const Autors = () => {
   return(
-    <div className={styles.autors}>
+    <div id="authors" className={styles.autors}>
       <div className={styles.autors__headline}>
         <HeadLine text='Авторки курсу' letters={['и', 'у']}/>
       </div>
@@ -20,11 +21,16 @@ export const Autors = () => {
             <Title text='Юлія Маліч' color='#93bccc' size='XXL'/>
           </div>
             <div className={styles.autors__social_blue}>
-              <SocialIcon name='instagramBlue' link='https://www.instagram.com/'/>
-              <SocialIcon name='facebookBlue' link='https://www.facebook.com/'/>
-              <SocialIcon name='linkedinBlue' link='https://www.linkedin.com/'/>
+              <SocialIcon name='instagramBlue' link={config.authors[0].instagram} />
+              <SocialIcon name='facebookBlue' link={config.authors[0].facebook} />
+              <SocialIcon name='linkedinBlue' link={config.authors[0].linkedin} />
             </div>
-            <Description texts={['Керівниця напрямку співпраці з державними органами в Bolt в Україні та Центрально-Західній Азії, експертка по стейкголдер-менеджменту.', 'Більше 14 років досвіду у зовнішніх комунікаціях. Отримала підвищення під час декрету.']}/>
+            <Description 
+              texts={[
+                'Керівниця напрямку співпраці з державними органами в Bolt в Україні та Центрально-Західній Азії, експертка по стейкголдер-менеджменту.', 
+                'Більше 14 років досвіду у зовнішніх комунікаціях. Отримала підвищення під час декрету.'
+              ]}
+            />
           </div>
           <div className={styles.autors__photo_1}>
             <img src={author_1} alt="" />
@@ -39,11 +45,16 @@ export const Autors = () => {
               <Title text='Алеся Стоковська' color='#b0d283' size='XXL'/>
             </div>
             <div className={styles.autors__social_green}>
-            <SocialIcon name='instagramGreen' link='https://www.instagram.com/'/>
-              <SocialIcon name='facebookGreen' link='https://www.facebook.com/'/>
-              <SocialIcon name='linkedinGreen' link='https://www.linkedin.com/'/>
+            <SocialIcon name='instagramGreen' link={config.authors[1].instagram} />
+              <SocialIcon name='facebookGreen' link={config.authors[1].facebook} />
+              <SocialIcon name='linkedinGreen' link={config.authors[1].facebook} />
             </div>
-            <Description texts={['Експертка з управління репутацією та social impact комунікацій.', 'Маючи понад 15 років досвіду, зараз займає посади CEO комунікаціної агенції OII Meaningful Communication та НГО Impact Force .']}/>
+            <Description 
+              texts={[
+                'Експертка з управління репутацією та social impact комунікацій.', 
+                'Маючи понад 15 років досвіду, зараз займає посади CEO комунікаціної агенції OII Meaningful Communication та НГО Impact Force .'
+              ]}
+            />
           </div>
         </div>
       </div>

@@ -1,0 +1,9 @@
+.size {
+  width: 34px;
+  height: 34px;
+  transition: transform 0.35s ease;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
