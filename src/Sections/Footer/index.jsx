@@ -2,7 +2,7 @@ import React from "react";
 import { HeadLine } from "../../Components/Headline";
 import { Title } from "../../Components/Title";
 import { Menu } from "../../Components/Menu";
-import { Button } from "../../Components/Button";
+import { ButtonToMail } from "../../Components/ButtonMailTo";
 import logo from '../../assets/images/picture/logo_footer.png';
 import arrow from '../../assets/images/icons/arrow_snake.svg';
 import styles from './styles.module.scss';
@@ -31,7 +31,7 @@ export const Footer = () => {
           <div className={styles.nav}>
            <Menu />
           </div>
-          <Button label='написати' theme='footer'/>
+          <ButtonToMail label='написати' theme='footer' />
         </div>
         <div className={styles.footer__line}>
         </div>

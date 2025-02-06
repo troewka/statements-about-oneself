@@ -13,7 +13,7 @@ import { ReactComponent as ArrowRight } from '../../assets/images/icons/arrow_ri
 import styles from './styles.module.scss';
 
 export const Icon = ({ name, size, color, borderColor, hoverColor, bg, hoverBg, onClick }) => {
-  const [isHover, setIsHover] = useState();
+  const [isHover, setIsHover] = useState(false);
 
   const icons = {
     calendar: Calendar,
@@ -45,12 +45,12 @@ export const Icon = ({ name, size, color, borderColor, hoverColor, bg, hoverBg, 
   return (
     <div 
       className={classNameList} 
-      style={{ backgroundColor: isHover ? hoverBg || bg : bg }}
+      style={{ backgroundColor: isHover ? hoverBg : bg }}
       onMouseEnter={handleHover} 
       onMouseLeave={handleHover}
       onClick={onClick}
     >
-      <IconCmp fill={isHover ? hoverColor || color : color} />
+      <IconCmp fill={isHover ? hoverColor : color} />
     </div>
   )
 }

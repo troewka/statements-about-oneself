@@ -52,23 +52,6 @@ a.button {
       color: #0e2129;
     }
   }
-
-  &__footer {
-    color: #0e2129;
-    width: 284px;
-    height: 53px;
-    line-height: 53px;
-    border-radius: 56px;
-    background-color: #D5E5C0;
-    font-size: 24px;
-    font-weight: 700;
-    letter-spacing: 0.96px;
-
-    &:hover {
-      background-color: #93bccc;
-      color: #0e2129;
-    }
-  }
 }
 
 @media (max-width: 1200px) {
@@ -122,11 +105,5 @@ a.button {
     &__registration {
       font-size: 18px;
     }
-    &__footer {
-      width: 70%;
-      height: 40px;
-      font-size: 20px;
-    }
   }
-
 }
