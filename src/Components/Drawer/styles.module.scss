@@ -1,0 +1,39 @@
+.drawer {
+  position: fixed;
+  top: 0;
+  left: -50vw;
+  width: 50vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  padding: 60px 0 0 0;
+  background-color: #fff;
+  z-index: 20;
+  transition: transform 0.3s linear;
+
+  &.isOpen {
+    transform: translateX(50vw);
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+}
+
+.close {
+  background-color: #d5e5c0;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+
+  &:before {
+    content: 'x';
+    color: #0e2129;
+    font-size: 24px;
+  }
+}

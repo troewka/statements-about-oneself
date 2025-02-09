@@ -1,6 +1,6 @@
 import React from "react";
 import { SliderCarouser } from "../../Components/SliderCarousel";
-import { HeadLine } from "../../Components/Head-line";
+import { HeadLine } from "../../Components/Headline";
 import { Title } from "../../Components/Title";
 import { List } from "../../Components/List";
 import picture1 from '../../assets/images/picture/program1_bg.png';
@@ -44,7 +44,7 @@ export const Details = () => {
   ]
 
   return(
-    <div className={styles.details}>
+    <div id="details" className={styles.details}>
       <div className={styles.details__headline}>
         <HeadLine text='Деталі програми' letters={['е', 'а']}/>
       </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { config } from "../../config";
 import { Icon } from "../../Components/Icon";
 import { Button } from "../../Components/Button";
 import logo from '../../assets/images/picture/logo_main.png';
@@ -26,7 +27,7 @@ export const Main = () => {
             <span>ХХ ЛЮТОГО 2025</span>
           </div>
         </div>
-        <Button label='Зареєструйся зараз!' theme='main'/>
+        <Button label='Зареєструйся зараз!' theme='main' href={config.registration} />
       </div>
     </div>
   )

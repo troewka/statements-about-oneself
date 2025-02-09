@@ -1,15 +1,15 @@
 import React from "react";
-import { HeadLine } from "../../Components/Head-line";
+import { HeadLine } from "../../Components/Headline";
 import { Title } from "../../Components/Title";
 import { Menu } from "../../Components/Menu";
-import { Button } from "../../Components/Button";
+import { ButtonToMail } from "../../Components/ButtonMailTo";
 import logo from '../../assets/images/picture/logo_footer.png';
 import arrow from '../../assets/images/icons/arrow_snake.svg';
 import styles from './styles.module.scss';
 
 export const Footer = () => {
   return(
-    <div className={styles.footer}>
+    <div id="contacts" className={styles.footer}>
       <div className={styles.footer__info}>
         <div className={styles.footer__logo}>
           <img src={logo} alt="" />
@@ -29,9 +29,9 @@ export const Footer = () => {
       <div className={styles.footer__nav}>
         <div className={styles.footer__menu}>
           <div className={styles.nav}>
-           <Menu/>
+           <Menu />
           </div>
-          <Button label='написати' theme='footer'/>
+          <ButtonToMail label='написати' theme='footer' />
         </div>
         <div className={styles.footer__line}>
         </div>
