@@ -16,13 +16,13 @@ export const Header = () => {
         <Menu/>
         <Button label='Реєстрація' theme='header' href={config.registration} />
       </div>
-      <div className={classNames(styles.header__nav__mobile)}>
+      <div className={classNames(styles.header__nav__mobile)}
+           onClick={() => setIsOpen(!isOpen)}>
         <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
           <Menu/>
         </Drawer>
         <button 
-          className={styles.header__button}
-          onClick={() => setIsOpen(!isOpen)}>
+          className={styles.header__button}>
           <Icon/>
         </button>
         <Button label='Реєстрація' theme='header' href={config.registration} />
