@@ -7,7 +7,7 @@ export const ButtonToMail = ({ label, theme }) => {
 
   const onClick = event => {
     event.preventDefault();
-    window.location.href ='mailto:example@email.com';
+    window.location.href ='prosebeua@gmail.com';
   }
 
   return (

@@ -20,11 +20,11 @@ export const Registration = () => {
             <Title text='Заповнюй заявку вже зараз!' color='#508696' size='S'/>
           </div>
           <div className={styles.registration__button}>
-            <Button label='Реєстрація на 1 модуль' theme='registration' href={config.registration} />
+            <Button label='Реєстрація на модуль 1' theme='registration' href={config.registration} />
           </div>
           <div className={styles.registration__date}>
             <Icon name='list' size='M'/>
-            <Title text='Початок ХХ лютого 2025' color='#93bccc' size='XS'/>
+            <Title text='Початок 15 березня 2025' color='#93bccc' size='XS'/>
           </div>
         </div>
         <div className={styles.registration__picture}>

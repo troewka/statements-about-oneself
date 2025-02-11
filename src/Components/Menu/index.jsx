@@ -7,7 +7,7 @@ export const Menu = () => {
     {id: '#authors', label: 'Авторки курсу'},
     {id: '#details', label: 'Деталі програми'},
     {id: '#registation', label: 'Реєстрація'},
-    {id: '#contacts', label: 'Контакти'}
+    {id: '#contacts', label: 'Ми в Instagram'}
   ];
 
   const handleScrollToElement = id => {

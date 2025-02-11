@@ -17,8 +17,8 @@ export const Details = () => {
         <div className={styles.details__list}>
           <List name='arrowLongGreen' text='Самооцінка та постановка цілей; подолання обмежуючих переконань.' title='Модуль 1:' size='M'/>
           <List name='arrowLongGreen' text='Визначення своєї ніші та експертності; навчання чіткому формулюванню своєї цінності.' title='Модуль 2:' size='M'/>
-          <List name='arrowLongGreen' text='Побудова репутації через різні платформи.' title='Модуль 3:' size='M'/>
-          <List name='arrowLongGreen' text='Створення сталих кроків для довгострокового успіху; конструктивна робота з критикою.' title='Модуль 4:' size='M'/>
+          <List name='arrowLongGreen' text='Побудова репутації через різні платформи, нетворкінг.' title='Модуль 3:' size='M'/>
+          <List name='arrowLongGreen' text='Робота з командою та в команді, робота з критикою. Створення наступних кроків для досягнення цілей.' title='Модуль 4:' size='M'/>
         </div>
       </div>
       <div className={styles.details__picture}>

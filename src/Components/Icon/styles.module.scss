@@ -29,10 +29,14 @@
 
 @media (max-width: 768px) {
   .size {
+    border: 2px solid #508696;
     &__m {
       width: 50px;
       height: 50px;
       padding: 10px;
+      &_black {
+        border: 2px solid #0E2129;
+      }
     }
     &__l {
       width: 60px;
@@ -44,7 +48,6 @@
 
 @media (max-width: 576px) {
   .size {
-    border: 2px solid #508696;
     &__s {
       width: 44px;
       height: 44px;
@@ -53,7 +56,6 @@
     &__m {
       width: 40px;
       height: 40px;
-      border: 2px solid #0E2129;
     }
     &__l {
       width: 45px;

@@ -24,7 +24,7 @@ export const Main = () => {
           <Icon name='calendar' size='M'/>
           <div className={styles.main__date}>
             <h4>Початок</h4>
-            <span>ХХ ЛЮТОГО 2025</span>
+            <span>15 березня 2025</span>
           </div>
         </div>
         <Button label='Зареєструйся зараз!' theme='main' href={config.registration} />

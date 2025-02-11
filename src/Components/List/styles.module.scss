@@ -11,6 +11,7 @@
     margin: 0 5px 0 0;
   }
   &__text {
+    max-width: 65%;
     color: #0e2129;
     font-weight: 400;
     &_s {
@@ -28,7 +29,6 @@
       margin: 0 20px 0 0;
     }
     &__text {
-      flex: 0 0 70%;
       &_s {
         font-size: 25px;
       }
@@ -39,7 +39,7 @@
 @media (max-width: 992px) {
   .list {
     &__text {
-      flex: unset;
+      max-width: unset;
       &_m {
         font-size: 23px;
       }
