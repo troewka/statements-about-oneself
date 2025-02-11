@@ -7,7 +7,7 @@ export const Menu = () => {
     {id: '#authors', label: 'Авторки курсу'},
     {id: '#details', label: 'Деталі програми'},
     {id: '#registation', label: 'Реєстрація'},
-    {id: '#contacts', label: 'Ми в Instagram'}
+    {id: '#contacts', label: 'Ми в Instagram', href: 'https://www.instagram.com/prosebeua'}
   ];
 
   const handleScrollToElement = id => {
@@ -22,9 +22,9 @@ export const Menu = () => {
   
   return (
     <ul className={styles.menu}>
-      {list.map(({ id, label }) => (
-        <li key={id} className={styles.menu__item} onClick={() => handleScrollToElement(id)}>
-          <span>{label}</span>
+      {list.map(({ id, label, href }) => (
+        <li key={id} className={styles.menu__item} onClick={() => !href && handleScrollToElement(id)}>
+          {href ? <a href={href} target="_blank" rel="no noreferrer">{label}</a> : <span>{label}</span>}
         </li>
       ))}
     </ul>

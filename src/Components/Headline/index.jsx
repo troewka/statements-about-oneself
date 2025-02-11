@@ -1,4 +1,4 @@
-import React, {Fragment} from "react";
+import React, { Fragment } from "react";
 import { Icon } from "../Icon";
 import styles from './styles.module.scss';
 
@@ -17,4 +17,4 @@ export const HeadLine = ({ text, letters }) => {
       </h2>
     </div>
   )
-}
+};

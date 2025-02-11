@@ -16,8 +16,7 @@ export const Header = () => {
         <Menu/>
         <Button label='Реєстрація' theme='header' href={config.registration} />
       </div>
-      <div className={classNames(styles.header__nav__mobile)}
-           onClick={() => setIsOpen(!isOpen)}>
+      <div className={classNames(styles.header__nav__mobile)} onClick={() => setIsOpen(!isOpen)}>
         <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
           <Menu/>
         </Drawer>
