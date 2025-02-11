@@ -41,7 +41,6 @@ export const SliderCarouser = ({ items }) => {
             size='S' 
             color='#508696' 
             hoverColor='#fff'
-            bg='#fff'
             hoverBg='#b0d283'
             onClick={() => slider?.current?.slickNext()}
           />
