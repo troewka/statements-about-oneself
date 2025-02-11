@@ -4,14 +4,18 @@ import { Title } from "../../Components/Title";
 import { Button } from "../../Components/Button";
 import { Icon } from "../../Components/Icon";
 import registration from '../../assets/images/picture/registration_bg.png';
-import styles from './styles.module.scss';
 import { config } from "../../config";
+import styles from './styles.module.scss';
 
 export const Registration = () => {
   return(
     <div id="registation" className={styles.registration}>
       <div className={styles.registration__headline}>
-        <HeadLine text='Реєстрація на модуль 1' letters={['є', 'я', '1']}/>
+        <HeadLine
+          text='Реєстрація на модуль 1'
+          letters={['є', 'я', '1']}
+          styles={styles.registrationHeadline} 
+        />
       </div>
       <div className={styles.registration__info}>
         <div className={styles.registration__description}>

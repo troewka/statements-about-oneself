@@ -1,11 +1,13 @@
 import React, { Fragment } from "react";
+import classNames from 'classnames';
 import { Icon } from "../Icon";
 import styles from './styles.module.scss';
 
-export const HeadLine = ({ text, letters }) => {
+export const HeadLine = ({ text, letters, styles: externalStyles }) => {
   const splitText = text.split('');
+
   return (
-    <div className={styles.headline}>
+    <div className={classNames(styles.headline, externalStyles)}>
       <div className={styles.headline__icon}>
         <Icon name='arrowSmall' size='M' borderColor='black'/>
       </div>

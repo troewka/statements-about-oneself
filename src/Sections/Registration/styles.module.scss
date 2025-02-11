@@ -47,6 +47,14 @@
   }
 }
 
+.registrationHeadline {
+  > h2 {
+    span + span {
+      margin-right: 25px;
+    }
+  }
+}
+
 @media (max-width: 1200px) {
   .registration {
     padding: 20px 0 0 0;
@@ -79,6 +87,14 @@
       margin: 0 0 20px 0;
     }
   }
+
+  .registrationHeadline {
+    > h2 {
+      span + span {
+        margin-right: 15px;
+      }
+    }
+  }
 }
 
 @media (max-width: 992px) {
@@ -106,6 +122,14 @@
     }
     &__button, &__title, &__subtitle {
       margin: 0 0 20px 0;
+    }
+  }
+
+  .registrationHeadline {
+    > h2 {
+      span + span {
+        margin-right: 15px;
+      }
     }
   }
 }
@@ -142,6 +166,14 @@
       justify-content: center;
     }
   }
+
+  .registrationHeadline {
+    > h2 {
+      span + span {
+        margin-right: 15px;
+      }
+    }
+  }
 }
 
 @media (max-width: 576px) {
@@ -156,6 +188,14 @@
     }
     &__date {
       column-gap: 10px;
+    }
+  }
+
+  .registrationHeadline {
+    > h2 {
+      span + span {
+        margin-right: 15px;
+      }
     }
   }
 }
