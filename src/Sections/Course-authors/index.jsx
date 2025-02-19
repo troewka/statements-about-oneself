@@ -47,7 +47,7 @@ export const Autors = () => {
             <div className={styles.autors__social_green}>
             <SocialIcon name='instagramGreen' link={config.authors[1].instagram} />
               <SocialIcon name='facebookGreen' link={config.authors[1].facebook} />
-              <SocialIcon name='linkedinGreen' link={config.authors[1].facebook} />
+              <SocialIcon name='linkedinGreen' link={config.authors[1].linkedin} />
             </div>
             <Description 
               texts={[
