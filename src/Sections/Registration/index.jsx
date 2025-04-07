@@ -19,7 +19,7 @@ export const Registration = () => {
       </div>
       <div className={styles.registration__info}>
         <div className={styles.registration__description}>
-          <h3 className={styles.registration__subtitle}>Перші 30 - безкоштовно,<br/>з 31 заявки - вартість <b>2899 грн!</b></h3>
+          <h3 className={styles.registration__subtitle}>Перший модуль - безкоштовно для всіх!<br/>Повна вартість курсу <b>3799 грн!</b></h3>
           <div className={styles.registration__title}>
             <Title text='Заповнюй заявку вже зараз!' color='#508696' size='S'/>
           </div>
@@ -28,7 +28,7 @@ export const Registration = () => {
           </div>
           <div className={styles.registration__date}>
             <Icon name='list' size='M'/>
-            <Title text='Початок 15 березня 2025' color='#93bccc' size='XS'/>
+            <Title text='ПОЧАТОК 24 ТРАВНЯ 2025' color='#93bccc' size='XS'/>
           </div>
         </div>
         <div className={styles.registration__picture}>
