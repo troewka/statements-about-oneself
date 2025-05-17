@@ -28,7 +28,7 @@ export const Registration = () => {
           </div>
           <div className={styles.registration__date}>
             <Icon name='list' size='M'/>
-            <Title text='ПОЧАТОК 24 ТРАВНЯ 2025' color='#93bccc' size='XS'/>
+            <Title text='ПОЧАТОК 31 ТРАВНЯ 2025' color='#93bccc' size='XS'/>
           </div>
         </div>
         <div className={styles.registration__picture}>
