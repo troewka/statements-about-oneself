@@ -8,6 +8,8 @@ export const Button = ({ label, theme, href = '' }) => {
     theme === 'header' && styles.button__header,
     theme === 'main' && styles.button__main,
     theme === 'registration' && styles.button__registration,
+    theme === 'buyGren' && styles.button__buy_green,
+    theme === 'buyBlue' && styles.button__buy_blue,
   );
 
   return (

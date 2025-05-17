@@ -1,0 +1,36 @@
+.card {
+  width: 285px;
+  height: 315px;
+  background: rgba(147, 188, 204, 0.29);
+  border-radius: 30px;
+  padding: 15px;
+  z-index: 2;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+  &__number {
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #F2F6F9;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: 700;
+    color: #508696;
+    padding: 11px;
+  }
+  &__name {
+    font-size: 24px;
+    color: #508696;
+    font-weight: 700;
+  }
+  &__descr {
+    font-size: 16px;
+    color: #0E2129;
+    text-align: center;
+  }
+}

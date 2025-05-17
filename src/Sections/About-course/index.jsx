@@ -15,7 +15,6 @@ export const AboutCourse = () => {
         <div className={styles.about__title}>
           <Title text='Що ти отримаєш?' color='#93bccc' size='M'/>
         </div>
-
       </div>
       <div className={styles.about__info}>
         <div className={styles.about__item}>
@@ -32,7 +31,7 @@ export const AboutCourse = () => {
         </div>
         <div className={styles.about__item}>
           <Icon name='recommendations' size='L'/>
-          <Description texts={['Рекомендації щодо кар’єрного зростання']}/>
+          <Description texts={['Рекомендації з кар’єрного росту']}/>
         </div>
       </div>
     </div>

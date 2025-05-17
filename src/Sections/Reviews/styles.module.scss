@@ -1,0 +1,23 @@
+.reviews {
+  padding: 65px 0 0 0;
+  &__header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 60px 0;
+    img {
+      position: absolute;
+      top: -150px;
+      right: -90px;
+      width: 650px;
+    }
+  }
+  &__headline {
+    margin-right: 215px;
+  }
+  &__card {
+    display: flex;
+    justify-content: space-between;
+  }
+}

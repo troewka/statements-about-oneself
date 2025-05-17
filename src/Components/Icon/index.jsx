@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import classNames from "classnames";
 import { ReactComponent as Calendar } from '../../assets/images/icons/calendar.svg';
+import { ReactComponent as CalendarBigGreen} from '../../assets/images/icons/calendar_big_green.svg';
+import { ReactComponent as CalendarBigBlue} from '../../assets/images/icons/calendar_big_blue.svg'
 import { ReactComponent as Like } from '../../assets/images/icons/like.svg';
 import { ReactComponent as Messages } from '../../assets/images/icons/messages.svg';
 import { ReactComponent as Top } from '../../assets/images/icons/top.svg';
@@ -17,6 +19,8 @@ export const Icon = ({ name, size, color, borderColor, hoverColor, bg, hoverBg, 
 
   const icons = {
     calendar: Calendar,
+    calendarBG: CalendarBigGreen,
+    calendarBB: CalendarBigBlue,
     like: Like,
     messages: Messages,
     top: Top,
@@ -39,6 +43,7 @@ export const Icon = ({ name, size, color, borderColor, hoverColor, bg, hoverBg, 
     size === 'M' && styles.size__m,
     size === 'L' && styles.size__l,
     size === 'XL' && styles.size__xl,
+    size === 'ML' && styles.size__ml,
     borderColor === 'black' && styles.size__m_black
   );
 

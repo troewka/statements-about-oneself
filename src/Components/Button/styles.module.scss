@@ -22,18 +22,20 @@ a.button {
   }
 
   &__main {
-    color: #0e2129;
+    color: #FFFFFF;
     width: 390px;
     height: 52px;
     line-height: 52px;
     border-radius: 56px;
-    background: #d5e5c0;
+    border: 3px solid #B0D283;
+    background: #86AD47;
     font-weight: 700;
     font-size: 24px;
 
     &:hover {
-      background-color: #0e2129;
-      color: #d5e5c0;
+      background-color: #93bccc;
+      border: 3px solid #5992a8;
+      color: #0e2129;
     }
   }
 
@@ -51,6 +53,26 @@ a.button {
       background-color: #d5e5c0;
       color: #0e2129;
     }
+  }
+  &__buy_green {
+  color: #FFFFFF;
+  width: 358px;
+  background-color: #86AD47;
+  padding: 7px 33px;
+  border-radius: 50px;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1.48px;
+  }
+  &__buy_blue {
+  color: #FFFFFF;
+  width: 358px;
+  background-color: #508696;
+  padding: 7px 33px;
+  border-radius: 50px;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1.48px;
   }
 }
 

@@ -4,7 +4,7 @@
   justify-content: space-between;
   background-color: #d5e5c0;
   border-top-right-radius: 120px;
-  padding: 50px 0 20px 0;
+  padding: 55px 0 20px 0;
   &::before {
     content: '';
     position: absolute;
@@ -20,22 +20,22 @@
     }
   }
   &__title {
-    max-width: 551px;
     line-height: 47px;
     margin-bottom: 40px;
-    letter-spacing: 2.27px;
+    letter-spacing: 2px;
   }
   &__list {
     display: flex;
     flex-direction: column;
-    gap: 36px;
-    margin-bottom: 68px;
+    gap: 23px;
+    margin-bottom: 30px;
+    max-width: 82%;
   }
   &__picture {
     img {
       position: absolute;
-      top: -15px;
-      right: 35px;
+      bottom: 26px;
+      right: 106px;
       width: 424px;
       height: 393px;
       object-fit: contain;

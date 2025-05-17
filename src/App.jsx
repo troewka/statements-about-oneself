@@ -6,7 +6,9 @@ import { AboutCourse } from './Sections/About-course';
 import { CourseFor } from './Sections/Course-for';
 import { Autors } from './Sections/Course-authors';
 import { Details } from './Sections/Program-details';
+import { Reviews } from './Sections/Reviews';
 import { Registration } from './Sections/Registration';
+import { ToBuy } from './Sections/ToBuy';
 import { Footer } from './Sections/Footer';
 
 function App() {
@@ -18,7 +20,9 @@ function App() {
       <CourseFor/>
       <Autors/>
       <Details/>
+      <Reviews/>
       <Registration/>
+      <ToBuy/>
       <Footer/>
     </Container>
   );

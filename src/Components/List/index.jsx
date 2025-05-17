@@ -17,10 +17,12 @@ export const List = ({ name, title, text, size}) => {
       <p className={classNames(
         styles.list__text, 
         size === 'S' && styles.list__text_s,
+        size === 'SS' && styles.list__text_ss,
         size === 'M' && styles.list__text_m)}>{title ? 
         <span className={classNames(
           styles.list__title,
           size === 'S' && styles.list__text_s,
+          size === 'SS' && styles.list__text_ss,
           size === 'M' && styles.list__text_m)}>
           {title}
         </span> : ''} 

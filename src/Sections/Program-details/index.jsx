@@ -3,8 +3,8 @@ import { SliderCarouser } from "../../Components/SliderCarousel";
 import { HeadLine } from "../../Components/Headline";
 import { Title } from "../../Components/Title";
 import { List } from "../../Components/List";
-import picture1 from '../../assets/images/picture/program1_bg.png';
-import picture2 from '../../assets/images/picture/program2_bg.png';
+import picture1 from '../../assets/images/picture/program1_bg_update.png';
+import picture2 from '../../assets/images/picture/program2_bg_update.png';
 import styles from './styles.module.scss';
 
 export const Details = () => {
@@ -17,8 +17,8 @@ export const Details = () => {
         <div className={styles.details__list}>
           <List name='arrowLongGreen' text='Самооцінка та постановка цілей; подолання обмежуючих переконань.' title='Модуль 1:' size='M'/>
           <List name='arrowLongGreen' text='Визначення своєї ніші та експертності; навчання чіткому формулюванню своєї цінності.' title='Модуль 2:' size='M'/>
-          <List name='arrowLongGreen' text='Побудова репутації через різні платформи, нетворкінг.' title='Модуль 3:' size='M'/>
-          <List name='arrowLongGreen' text='Робота з командою та в команді, робота з критикою. Створення наступних кроків для досягнення цілей.' title='Модуль 4:' size='M'/>
+          <List name='arrowLongGreen' text='Побудова репутації через різні платформи.' title='Модуль 3:' size='M'/>
+          <List name='arrowLongGreen' text={<>Створення сталих кроків для довгострокового успіху;конструктивна робота <br/> з критикою.</>} title='Модуль 4:' size='M'/>
         </div>
       </div>
       <div className={styles.details__picture}>
@@ -31,8 +31,7 @@ export const Details = () => {
           <Title text='додаткові активності' color='#0e2129' size='M'/>
         </div>
         <div className={styles.details__list}>
-          <List name='arrowLongGreen' text={`Поставте свої запитання Алесі та Юлії, отримайте персональні рекомендації та ідеї для розвитку.`} title='Q&A сесії з експертами:' size='S'/>
-          <List name='arrowLongGreen' text='Інтерактивні зустрічі з психологом для саморефлексії та секретною гостею, чий досвід надихне вас.' title='Зустрічі з професіоналами:' size='S'/>
+          <List name='arrowLongGreen' text={<>Поставте свої запитання <b>Алесі та Юлії,</b> отримайте персональні рекомендації та ідеї для розвитку.`</>} title='Q&A сесії з експертами:' size='S'/>
           <List name='arrowLongGreen' text='Інструменти для самостійної роботи, щоб закріпити отримані знання та навички.' title='Тести та практичні завдання:' size='S'/>
           <List name='arrowLongGreen' text='Можливість отримати ексклюзивну live-підтримку від однодумниць та побудувати міцні зв’язки.' title='Нетворкінг:' size='S'/>
         </div>
@@ -46,9 +45,10 @@ export const Details = () => {
   return(
     <div id="details" className={styles.details}>
       <div className={styles.details__headline}>
-        <HeadLine text='Деталі програми' letters={['е', 'а']}/>
+        <HeadLine text='Деталі програми' letters={['е', 'а']} color='#86AD47'/>
       </div>
       <SliderCarouser items={items} />
     </div>
   )
 }
+
