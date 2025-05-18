@@ -9,6 +9,7 @@ import { Details } from './Sections/Program-details';
 import { Reviews } from './Sections/Reviews';
 import { Registration } from './Sections/Registration';
 import { ToBuy } from './Sections/ToBuy';
+import { Learn } from './Sections/Learn';
 import { Footer } from './Sections/Footer';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Reviews/>
       <Registration/>
       <ToBuy/>
+      <Learn/>
       <Footer/>
     </Container>
   );

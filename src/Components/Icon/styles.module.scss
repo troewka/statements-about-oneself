@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 100%;
-  //border: 3px solid #508696;
+  border: 3px solid #508696;
   > img {
     max-width: 100%;
     height: auto;
@@ -29,6 +29,11 @@
   &__l {
     width: 86px;
     height: 86px;
+    &_green {
+        width: 86px;
+        height: 86px;
+        border: solid 3px #b0d283;
+    }
   }
 }
 

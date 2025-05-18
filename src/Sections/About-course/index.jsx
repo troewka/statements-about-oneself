@@ -19,19 +19,19 @@ export const AboutCourse = () => {
       <div className={styles.about__info}>
         <div className={styles.about__item}>
           <Icon name='like' size='L'/>
-          <Description texts={['Впевненість у власних досягненнях']}/>
+          <Description texts={['Впевненість у власних досягненнях']} size='S'/>
         </div>
         <div className={styles.about__item}>
           <Icon name='messages' size='L'/>
-          <Description texts={['Техніки ефективної комунікації на роботі']}/>
+          <Description texts={['Техніки ефективної комунікації на роботі']} size='S'/>
         </div>
         <div className={styles.about__item}>
           <Icon name='top' size='L'/>
-          <Description texts={['Інструменти для побудови сильного бренду']}/>
+          <Description texts={['Інструменти для побудови сильного бренду']} size='S'/>
         </div>
         <div className={styles.about__item}>
           <Icon name='recommendations' size='L'/>
-          <Description texts={['Рекомендації з кар’єрного росту']}/>
+          <Description texts={['Рекомендації з кар’єрного росту']} size='S'/>
         </div>
       </div>
     </div>

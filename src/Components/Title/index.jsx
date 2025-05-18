@@ -13,6 +13,7 @@ export const Title = ({ text, color, size }) => {
     size === 'M' && styles.size__m,
     size === 'L' && styles.size__l,
     size === 'XL' && styles.size__xl,
+    size === 'XLB' && styles.size__xl_bolt,
     size === 'XLL' && styles.size__xll,
     size === 'XXL' && styles.size__xxl)
 

@@ -12,6 +12,10 @@ import { ReactComponent as ArrowLarge } from '../../assets/images/icons/arrow_la
 import { ReactComponent as List } from '../../assets/images/icons/list.svg';
 import { ReactComponent as ArrowLeft } from '../../assets/images/icons/arrow_left.svg';
 import { ReactComponent as ArrowRight } from '../../assets/images/icons/arrow_right.svg';
+import { ReactComponent as Value} from '../../assets/images/icons/value.svg';
+import { ReactComponent as Reputation} from '../../assets/images/icons/reputation.svg';
+import { ReactComponent as Confidently} from '../../assets/images/icons/confidently.svg';
+import { ReactComponent as Barriers} from '../../assets/images/icons/barriers.svg';
 import styles from './styles.module.scss';
 
 export const Icon = ({ name, size, color, borderColor, hoverColor, bg, hoverBg, onClick }) => {
@@ -30,6 +34,10 @@ export const Icon = ({ name, size, color, borderColor, hoverColor, bg, hoverBg, 
     list: List,
     arrowLeft: ArrowLeft,
     arrowRight: ArrowRight,
+    value: Value,
+    reputation: Reputation,
+    confidently: Confidently,
+    barriers: Barriers
   };
 
   const IconCmp = icons[name];
@@ -42,6 +50,7 @@ export const Icon = ({ name, size, color, borderColor, hoverColor, bg, hoverBg, 
     size === 'S_active' && styles.size__s_active,
     size === 'M' && styles.size__m,
     size === 'L' && styles.size__l,
+    size === 'LG' && styles.size__l_green,
     size === 'XL' && styles.size__xl,
     size === 'ML' && styles.size__ml,
     borderColor === 'black' && styles.size__m_black
