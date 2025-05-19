@@ -9,7 +9,7 @@ export const HeadLine = ({ text, letters, color, colorArrow = '#93BCCC', styles:
   return (
     <div className={classNames(styles.headline, externalStyles)}>
       <div className={styles.headline__icon}>
-        <Icon name='arrowSmall' size='M' borderColor='black' color={colorArrow}/>
+        <Icon name='arrowSmall' size='M' borderColor='black' hoverColor={colorArrow} color={colorArrow}/>
       </div>
       <h2 className={styles.headline__title}>{splitText.map((char, index) => (
         
