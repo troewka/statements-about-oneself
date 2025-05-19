@@ -29,3 +29,29 @@
     margin-bottom: 30px;
   }
 }
+
+@media (max-width: 576px) {
+  .buy {
+    width: 90%;
+    height: 100%;
+    &__title {
+      padding: unset;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+    &__descr {
+      padding: unset;
+      text-align: center;
+      margin-bottom: 10px;
+      p {
+        margin-bottom: 10px;
+      }
+    }
+    &__date {
+      svg {
+        width: 35px;
+        height: 35px;
+      }
+    }
+  }
+}

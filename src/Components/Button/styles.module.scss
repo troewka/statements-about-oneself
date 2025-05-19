@@ -127,5 +127,10 @@ a.button {
     &__registration {
       font-size: 18px;
     }
+    &__buy_green, &__buy_blue {
+      width: 100%;
+      padding: 10px 25px;
+      font-size: 18px;
+    }
   }
 }

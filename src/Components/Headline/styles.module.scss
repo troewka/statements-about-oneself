@@ -36,6 +36,7 @@
   .headline {
     &__title {
       font-size: 70px;
+      flex-wrap: wrap;
       span {
         font-size: 95px;
       }

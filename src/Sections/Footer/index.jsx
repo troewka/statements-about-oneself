@@ -4,7 +4,6 @@ import { Title } from "../../Components/Title";
 import { Menu } from "../../Components/Menu";
 import { ButtonToMail } from "../../Components/ButtonMailTo";
 import logo from '../../assets/images/picture/logo_footer.png';
-import arrow from '../../assets/images/icons/arrow_snake.svg';
 import styles from './styles.module.scss';
 
 export const Footer = () => {
@@ -16,13 +15,10 @@ export const Footer = () => {
         </div>
         <div className={styles.footer__description}>
           <div className={styles.footer__headline}>
-            <HeadLine text='Час діяти!' letters={['я', '!']}/>
+            <HeadLine text='Час діяти!' letters={[6]}/>
           </div>
           <div className={styles.footer__title}>
             <Title text='Є питання? Напиши нам' color='#0E2129' size='XL'/>
-          </div>
-          <div className={styles.footer__arrow}>
-            <img src={arrow} alt="" />
           </div>
         </div>
       </div>

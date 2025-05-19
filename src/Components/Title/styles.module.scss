@@ -34,6 +34,7 @@
     &_bolt {
       font-size: 41px;
       line-height: 1.2 * 41px;
+      letter-spacing: 2px;
       font-weight: 900;
     }
   }
@@ -52,6 +53,16 @@
   .size {
     &__m {
       font-size: 34px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .size {
+    &__xll, &__xl_bolt {
+      text-align: center;
+      font-size: 30px;
+      line-height: normal;
     }
   }
 }
@@ -80,6 +91,18 @@
     }
     &__xl {
       font-size: 20px;
+      &_bolt {
+        text-align: center;
+        font-size: 22px;
+      }
+
+    }
+    &__xll, &__xx {
+      font-size: 20px;
+      text-align: center;
+    }
+    &__xss {
+      font-size: 24px;
     }
     &__xxl {
       font-size: 26px;

@@ -34,3 +34,9 @@
     text-align: center;
   }
 }
+
+@media (max-width: 576px) {
+  .card {
+    height: 100%;
+  }
+}

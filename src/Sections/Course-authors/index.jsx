@@ -12,7 +12,7 @@ export const Autors = () => {
   return(
     <div id="authors" className={styles.autors}>
       <div className={styles.autors__headline}>
-        <HeadLine text='Авторки курсу' letters={['и', 'у']}/>
+        <HeadLine text='Авторки курсу' letters={[6, 9]}/>
       </div>
       <div className={styles.autors__descriptions}>
         <div className={styles.autors__one}>

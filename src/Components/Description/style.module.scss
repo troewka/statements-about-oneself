@@ -1,18 +1,18 @@
 .description {
-  &__text_s{
-    font-weight: 400;
-    font-size: 25px;
+  &__text{
     color: #0e2129;
-    margin: 0 0 38px 0;
+    &_s {
+      font-size: 25px;
+      font-weight: 400;
+      margin: 0 0 38px 0;
+    }
+    &_m {
+      font-size: 26px;
+      font-weight: 500;
+    }
   }
   :last-child {
     margin: 0;
-  }
-  &__text_m {
-    font-weight: 500;
-    font-size: 26px;
-    color: #0e2129;
-    margin: 0 0 38px 0;
   }
 }
 
@@ -20,7 +20,7 @@
   .description {
     width: 100%;
     text-align: center;
-    &__text {
+    &__text_s, &__text_m {
       font-size: 22px;
       margin: 0 0 20px 0;
     }
@@ -29,7 +29,7 @@
 
 @media (max-width: 768px) {
   .description {
-    &__text {
+    &__text_s {
       font-size: 20px;
       max-width: unset;
     }
@@ -38,9 +38,12 @@
 
 @media (max-width: 576px) {
   .description {
-    &__text {
+    &__text_s {
       font-size: 16px;
       margin: 0 0 5px 0;
+    }
+    &__text_m {
+      font-size: 18px;
     }
   }
 }

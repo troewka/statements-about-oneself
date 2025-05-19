@@ -1,9 +1,11 @@
 .size {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 100%;
   border: 3px solid #508696;
+  z-index: 10;
   > img {
     max-width: 100%;
     height: auto;
@@ -52,6 +54,9 @@
       width: 60px;
       height: 60px;
       padding: 10px;
+    }
+    &__ml {
+      border: none;
     }
   }
 }

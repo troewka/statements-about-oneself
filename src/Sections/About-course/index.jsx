@@ -10,7 +10,7 @@ export const AboutCourse = () => {
     <div id="about" className={styles.about}>
       <div className={styles.about__header}>
         <div className={styles.about__headline}>
-          <HeadLine text='Про курс' letters={['у']}/>
+          <HeadLine text='Про курс' letters={[5]}/>
         </div>
         <div className={styles.about__title}>
           <Title text='Що ти отримаєш?' color='#93bccc' size='M'/>
