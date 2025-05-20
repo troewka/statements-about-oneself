@@ -13,7 +13,7 @@ export const Registration = () => {
       <div className={styles.registration__headline}>
         <HeadLine
           text='Реєстрація на модуль 1'
-          letters={[2, 9, 21]}
+          letters={{ '02': true, '09': true, '30': true }}
           styles={styles.registrationHeadline} 
         />
       </div>

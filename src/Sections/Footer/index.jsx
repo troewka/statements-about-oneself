@@ -15,7 +15,7 @@ export const Footer = () => {
         </div>
         <div className={styles.footer__description}>
           <div className={styles.footer__headline}>
-            <HeadLine text='Час діяти!' letters={[6]}/>
+            <HeadLine text='Час діяти!' letters={{ '12': true, '15': true }} />
           </div>
           <div className={styles.footer__title}>
             <Title text='Є питання? Напиши нам' color='#0E2129' size='XL'/>

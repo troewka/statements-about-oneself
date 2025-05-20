@@ -1,22 +1,21 @@
 .headline {
-  height: 78px;
   display: flex;
-  &__icon {
-    margin: 0 28px 0 0;
-  }
+  align-items: center;
+  gap: 28px;
+
   &__title {
-    display: flex;
-    align-items: end;
     font-weight: 400;
     font-size: 82px;
     text-transform: uppercase;
     color: #0e2129;
     span {
-      font-family: 'Celestina';
-      font-size: 109px;
-      color: #508696;
-      text-transform: none;
-      z-index: 1;
+      span {
+        font-family: 'Celestina';
+        font-size: 109px;
+        color: #508696;
+        text-transform: none;
+        z-index: 1;
+      }
     }
   }
 }
@@ -24,10 +23,7 @@
 @media (max-width: 1200px) {
   .headline {
     &__title {
-      flex-wrap: wrap;
-    }
-    &__icon {
-      padding: 30px 0 0 0;
+      font-size: 67px;
     }
   }
 }
@@ -35,14 +31,11 @@
 @media (max-width: 992px) {
   .headline {
     &__title {
-      font-size: 70px;
-      flex-wrap: wrap;
       span {
-        font-size: 95px;
+        span {
+          font-size: 95px;
+        }
       }
-    }
-    &__icon {
-      padding: 25px 0 0 0;
     }
   }
 }
@@ -53,23 +46,25 @@
       font-size: 50px;
       flex-wrap: wrap;
       span {
-        font-size: 70px;
+        span {
+          font-size: 70px;
+        }
       }
-    }
-    &__icon {
-      padding: 28px 0 0 0;
-      margin: 0 15px 0 0;
     }
   }
 }
 
 @media (max-width: 576px) {
   .headline {
-    height: unset;
+    gap: 14px;
+    margin-top: 30px;
+
     &__title {
       font-size: 32px;
       span {
-        font-size: 50px;
+        span {
+          font-size: 50px;
+        }
       }
     } 
   }

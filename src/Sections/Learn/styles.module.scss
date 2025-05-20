@@ -25,6 +25,16 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .learn {
+    &__info {
+      img {
+        right: 0;
+      }
+    }
+  }
+}
+
 @media (max-width: 992px) {
   .learn {
     padding: 20px 0 0 0;

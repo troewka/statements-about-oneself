@@ -45,7 +45,12 @@ export const Details = () => {
   return(
     <div id="details" className={styles.details}>
       <div className={styles.details__headline}>
-        <HeadLine text='Деталі програми' letters={[1, 12]} color='#86AD47' colorArrow='#B0D283'/>
+        <HeadLine
+          text='Деталі програми'
+          letters={{ '01': true, '15': true }}
+          color='#86AD47'
+          colorArrow='#B0D283'
+        />
       </div>
       <SliderCarouser items={items} />
     </div>

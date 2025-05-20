@@ -12,7 +12,7 @@ export const Reviews = () => {
       <div className={styles.reviews__header}>
         <img src={bg} alt="rectangle" />
         <div className={styles.reviews__headline}>
-          <HeadLine text='Відгуки' letters={[6]}/>
+          <HeadLine text='Відгуки' letters={{ '06': true }} />
         </div>
         <div className={styles.reviews__title}>
           <Title text='Що кажуть ті, хто вже пройшов цей шлях?' color='#0E2129' size='M'/>

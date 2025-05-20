@@ -10,7 +10,12 @@ export const Learn = () => {
   return (
     <div className={styles.learn}>
       <div className={styles.learn__headline}>
-        <HeadLine text='Що ти навчишся робити?' letters={[7, 18]} color='#86AD47' colorArrow='#B0D283'/>
+        <HeadLine
+          text='Що ти навчишся робити?'
+          letters={{ '21': true, '33': true, '36': true }}
+          color='#86AD47'
+          colorArrow='#B0D283'
+        />
       </div>
       <div className={styles.learn__info}>
         <img src={rectangle} alt="rectangle" />

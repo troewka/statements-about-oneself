@@ -1,8 +1,8 @@
 .buy {
-  width: 390px;
-  height: 415px;
   border-radius: 30px;
   padding: 25px 15px;
+  flex: 1;
+
   &__green {
     background-color: #D5E5C0;
   }
@@ -27,6 +27,13 @@
     align-items: end;
     gap: 20px;
     margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .buy {
+    width: 450px;
+    flex: inherit;
   }
 }
 

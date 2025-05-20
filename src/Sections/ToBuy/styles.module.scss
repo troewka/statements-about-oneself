@@ -6,8 +6,20 @@
   &__card {
     display: flex;
     justify-content: space-between;
+    gap: 35px;
   }
 }
+
+
+@media (max-width: 1200px) {
+  .tobuy {
+    &__card {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+}
+
 
 @media (max-width: 992px) {
   .tobuy {
