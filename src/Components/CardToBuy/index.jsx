@@ -33,7 +33,7 @@ export const CardToBuy = ({ title, text, date, price }) => {
        <Button
         label={<>купити за {price} грн.</>}
         theme={isActiveDay ? 'buyGren' : 'buyBlue'}
-        href={config.registration}
+        href={config.paymentURL}
       />
     </div>
   )

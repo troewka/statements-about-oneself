@@ -9,4 +9,5 @@ export const config = {
     facebook: 'https://www.facebook.com/a.stokovskaya',
     linkedin: 'https://www.linkedin.com/in/alesia-stokovska-2085a029/',
   }],
+  paymentURL: 'https://secure.wayforpay.com/button/b64a9104b4c21',
 }
