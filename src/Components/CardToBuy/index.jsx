@@ -1,16 +1,20 @@
 import React from "react";
+import dayjs from "dayjs";
 import classNames from "classnames";
-import styles from './styles.module.scss';
 import { Title } from "../Title";
 import { Button } from "../Button";
 import { Icon } from "../Icon";
+import { config } from "../../config";
+import styles from './styles.module.scss';
 
-export const CardToBuy = ( {title, bg, calendar, date, price, btn} ) => {
-  const className = classNames(
-    styles.buy, 
-    bg === 'green' && styles.buy__green,
-    bg === 'blue' && styles.buy__blue,
-  );
+export const CardToBuy = ({ title, text, date, price }) => {
+  const beforeStartDate = dayjs().isBefore(dayjs(date)) && date === '2025-05-30';
+  const afterEndDate = dayjs().isAfter(dayjs(date)) && date === '2025-06-01';
+  const theSameDate = dayjs().isSame(dayjs(date), 'day');
+
+  const isActiveDay = beforeStartDate || afterEndDate || theSameDate;
+
+  const className = classNames(styles.buy, isActiveDay && styles.buy__green);
 
   return (
     <div className={className}>
@@ -23,10 +27,14 @@ export const CardToBuy = ( {title, bg, calendar, date, price, btn} ) => {
         <p>Ком’юніті однодумців</p>
       </div>
       <div className={styles.buy__date}>
-        <Icon name={calendar} size='ML'/>
-        <Title text={date} color='#000000' size='XX'/>
+        <Icon name={isActiveDay ? 'calendarBG' : 'calendarBB'} size='ML'/>
+        <Title text={text} color='#000000' size='XX'/>
       </div>
-       <Button label={<>купити за {price} грн.</>} theme={btn}/>
+       <Button
+        label={<>купити за {price} грн.</>}
+        theme={isActiveDay ? 'buyGren' : 'buyBlue'}
+        href={config.registration}
+      />
     </div>
   )
 }

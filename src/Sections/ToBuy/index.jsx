@@ -12,25 +12,22 @@ export const ToBuy = () => {
       <div className={styles.tobuy__card}>
         <CardToBuy 
           title='EARLY BIRDS' 
-          bg='green' 
-          calendar='calendarBG' 
-          date='до 30 травня 2025' 
+          text='до 30 травня 2025'
+          date='2025-05-30'
           price='3499' 
-          btn='buyGren'/>
+        />
         <CardToBuy 
           title='REGULAR' 
-          bg='blue' 
-          calendar='calendarBB' 
-          date='до 31 травня 2025' 
+          text='з 31 травня 2025' 
+          date='2025-05-31'
           price='3799' 
-          btn='buyBlue'/>
+        />
         <CardToBuy 
           title='FINAL CALL' 
-          bg='blue' 
-          calendar='calendarBB' 
-          date='з 1 червня 2025' 
+          text='з 1 червня 2025' 
+          date='2025-06-01'
           price='4499' 
-          btn='buyBlue'/>
+        />
       </div>
     </div>
   )

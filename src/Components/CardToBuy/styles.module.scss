@@ -1,13 +1,11 @@
 .buy {
+  background: rgba(147, 188, 204, 0.29);
   border-radius: 30px;
   padding: 25px 15px;
   flex: 1;
 
   &__green {
     background-color: #D5E5C0;
-  }
-  &__blue {
-    background: rgba(147, 188, 204, 0.29);
   }
   &__title {
     padding-left: 60px;
